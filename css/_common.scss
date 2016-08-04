@@ -1,0 +1,165 @@
+@import "_xmixins";
+//定义变量
+$color-darker: #1b1b1b;
+$color-normal: #333;
+$color-light: #898989;
+$color-lighter: #aaa;
+$color-success: #75c171;
+$color-danger: #fc6864;
+$color-warning: #e3b243;
+$color-info: #098be3;
+$fz-xs: .20rem;
+$fz-sm: .24rem;
+$fz-normal: .28rem;
+$fz-big: .32rem;
+$fz-larger: .36rem;
+$space-xs: .1rem;
+$space-sm: .2rem;
+$space-normal: .3rem;
+$space-big: .4rem;
+$space-larger: .5rem;
+//mixin
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin box-align($val) {
+  -webkit-box-align: $val;
+  -webkit-align-items: $val;
+  -ms-flex-align: $val;
+  align-items: $val;
+}
+
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex: $values;
+  -webkit-flex: $values;
+  -ms-flex: $values;
+  flex: $values;
+}
+
+@mixin order($val) {
+  -webkit-box-ordinal-group: $val;
+  -moz-box-ordinal-group: $val;
+  -ms-flex-order: $val;
+  -webkit-order: $val;
+  order: $val;
+}
+
+@mixin flex-direction($val) {
+  -webkit-flex-direction: $val;
+  flex-direction: $val;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+body, html {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color-normal;
+}
+
+html {
+  font-size: 50px;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f5f5f5;
+  font-size: $fz-sm;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img{
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.m-b-n {
+  margin-bottom: 0 !important;
+}
+
+.clearfix {
+  @include x-clearfix;
+}
+.btn {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid $color-light;
+  color: $color-normal;
+  @include x-border-radius(.56rem);
+  line-height: 1;
+  font-size: .28rem;
+  i{
+    font-size: .32rem;
+  }
+}
+
+.btn-danger {
+  border-color: $color-danger;
+  background-color: $color-danger;
+  color: #ffffff;
+  &:active {
+    background-color: darken($color-danger, 15%);
+  }
+}
+.container {
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 1.2rem;
+  overflow-x: hidden;
+}
+
+.weui_cells_tips {
+  font-size: .2rem;
+}
+
+.weui_search_bar {
+  padding: .16rem .2rem;
+}
+
+.weui_cells_title {
+  font-size: .28rem;
+}
+
+.weui_media_box {
+  padding: .24rem;
+}
+
+.weui_cells {
+  margin-top: .2rem;
+}
+
+.response-img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+
