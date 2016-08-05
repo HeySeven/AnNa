@@ -1,10 +1,11 @@
 @import "_xmixins";
 //定义变量
-$color-darker: #1b1b1b;
-$color-normal: #333;
-$color-light: #898989;
+$color-border: #e5e5e5;
+$color-darker: #2a2a2a;
+$color-normal: #565a5c;
+$color-light: #aaaeb1;
 $color-lighter: #aaa;
-$color-success: #75c171;
+$color-success: #30c793;
 $color-danger: #fc6864;
 $color-warning: #e3b243;
 $color-info: #098be3;
@@ -107,28 +108,7 @@ img{
 }
 
 .clearfix {
-  @include x-clearfix;
-}
-.btn {
-  display: inline-block;
-  padding: 0.2rem 0.7rem;
-  border: 1px solid $color-light;
-  color: $color-normal;
-  @include x-border-radius(.56rem);
-  line-height: 1;
-  font-size: .28rem;
-  i{
-    font-size: .32rem;
-  }
-}
-
-.btn-danger {
-  border-color: $color-danger;
-  background-color: $color-danger;
-  color: #ffffff;
-  &:active {
-    background-color: darken($color-danger, 15%);
-  }
+  @include x-clearfix();
 }
 .container {
   -webkit-overflow-scrolling: touch;
