@@ -6,7 +6,7 @@ $color-normal: #565a5c;
 $color-light: #aaaeb1;
 $color-lighter: #aaa;
 $color-success: #30c793;
-$color-danger: #fc6864;
+$color-danger: #fc4d52;
 $color-warning: #e3b243;
 $color-info: #098be3;
 $fz-xs: .20rem;
@@ -69,6 +69,8 @@ $space-larger: .5rem;
 }
 
 body, html {
+  margin: 0 auto;
+  max-width: 768px;
   height: 100%;
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
@@ -112,7 +114,7 @@ img{
 }
 .container {
   -webkit-overflow-scrolling: touch;
-  padding-bottom: 1.2rem;
+  padding-bottom: .84rem;
   overflow-x: hidden;
 }
 
@@ -142,4 +144,9 @@ img{
   height: 100%;
 }
 
-
+.mt-sm{
+  margin-top: $space-sm!important;
+}
+.mb-sm{
+  margin-bottom: $space-sm!important;
+}

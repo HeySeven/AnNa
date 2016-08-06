@@ -6,12 +6,17 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>安娜别墅</title>
     <link rel="stylesheet" href="weui/weui.css">
-    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1470327032_3325284.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1470460021_6260808.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="plugins/adaptive-version2.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="plugins/fastclick.min.js"></script>
     <script src="weui/weui.js"></script>
+    <!--plugins-->
+    <link href="plugins/Swiper/swiper-3.3.1.min.css" rel="stylesheet">
+    <script src="plugins/Swiper/swiper-3.3.1.jquery.min.js"></script>
+    <!--plugins end-->
+
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -20,11 +25,13 @@
         <a class="head-img-link" href="#">
             <img src="images/head-img.jpg" alt="安娜别墅">
             <dl class="header-weather-box">
-               <dt>
-                    青岛 <small>晴转多云 35℃~38℃</small>
-               </dt>
+                <dt>
+                    青岛
+                    <small>晴转多云 35℃~38℃</small>
+                </dt>
                 <dd>
-                    567 <small>人来过这里</small>
+                    567
+                    <small>人来过这里</small>
                 </dd>
             </dl>
             <span class="pic-info ui-border">
@@ -39,8 +46,10 @@
             <div class="panel-inner">
                 <div class="place-describe">
                     <div class="describe-body">
-                        柏林路和芦伊特波尔德路口的这栋立面复杂的漂亮建筑，有一个富有纪念意义的名字：安娜别墅（Villa Anna）。这是房子的建设者罗伯特"卡普勒(Robert Kappler sen)和他的儿子汉斯"卡普勒(Hans Kappler)，为了表达对他们家族一个叫安娜的亲戚的敬意，而特别命名的。
-                        柏林路和芦伊特波尔德路口的这栋立面复杂的漂亮建筑，有一个富有纪念意义的名字：安娜别墅（Villa Anna）。这是房子的建设者罗伯特"卡普勒(Robert Kappler sen)和他的儿子汉斯"卡普勒(Hans Kappler)，为了表达对他们家族一个叫安娜的亲戚的敬意，而特别命名的。
+                        柏林路和芦伊特波尔德路口的这栋立面复杂的漂亮建筑，有一个富有纪念意义的名字：安娜别墅（Villa Anna）。这是房子的建设者罗伯特"卡普勒(Robert Kappler
+                        sen)和他的儿子汉斯"卡普勒(Hans Kappler)，为了表达对他们家族一个叫安娜的亲戚的敬意，而特别命名的。
+                        柏林路和芦伊特波尔德路口的这栋立面复杂的漂亮建筑，有一个富有纪念意义的名字：安娜别墅（Villa Anna）。这是房子的建设者罗伯特"卡普勒(Robert Kappler
+                        sen)和他的儿子汉斯"卡普勒(Hans Kappler)，为了表达对他们家族一个叫安娜的亲戚的敬意，而特别命名的。
                     </div>
                     <div class="control-btn">
                         <i class="iconfont icon-unfold"></i>
@@ -51,12 +60,340 @@
             </div>
         </div>
     </div>
-    <div class="weui_panel weui_panel_access">
-        <div class="weui_panel_hd">图文组合列表</div>
+    <div class="weui_panel weui_panel_access ui-panel">
+        <div class="weui_panel_hd address-hd">
+            <dl>
+                <dt>地址</dt>
+                <dd>曲阜路、浙江路口，原柏林路、芦伊特波尔德路口</dd>
+            </dl>
+            <a href="#"><i class="iconfont icon-ditu"></i></a>
+        </div>
         <div class="weui_panel_bd">
-            111111
+            <div class="panel-inner">
+                <dl class="dl-horizontal">
+                    <dt>开放时间</dt>
+                    <dd>8：30 - 21：00</dd>
+                    <dt>最佳时节</dt>
+                    <dd>全年</dd>
+                    <dt>浏览时长</dt>
+                    <dd>2小时</dd>
+                    <dt>名片价格</dt>
+                    <dd>免费</dd>
+                </dl>
+            </div>
+
         </div>
     </div>
+
+    <div class="index-video mt-sm ui-border-tb">
+        <div class="index-video-hd">
+            <dl>
+                <dt>视说</dt>
+                <dd>NOW</dd>
+            </dl>
+        </div>
+        <div class="index-video-bd">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <a class="swiper-slide" href="#" style="background-image:url(images/nature1.jpg)"></a>
+                    <a class="swiper-slide" href="#" style="background-image:url(images/nature1.jpg)"></a>
+                    <a class="swiper-slide" href="#" style="background-image:url(images/nature1.jpg)"></a>
+                    <a class="swiper-slide" href="#" style="background-image:url(images/nature1.jpg)"></a>
+                    <a class="swiper-slide" href="#" style="background-image:url(images/nature1.jpg)"></a>
+                    <a class="swiper-slide" href="#" style="background-image:url(images/nature1.jpg)"></a>
+                    <a class="swiper-slide" href="#" style="background-image:url(images/nature1.jpg)"></a>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    effect: 'coverflow',
+                    grabCursor: true,
+                    centeredSlides: true,
+                    slidesPerView: 'auto',
+                    coverflow: {
+                        rotate: 45,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true
+                    }
+                });
+            </script>
+        </div>
+        <div class="index-video-fd">
+            <a href="#" class="more-video ui-border">
+                更多美丽邂逅 <i class="iconfont icon-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="index-tab-wrap mt-sm mb-sm ui-border-tb">
+        <div class="weui_tab">
+            <div class="weui_navbar">
+                <div class="weui_navbar_item weui_bar_item_on">
+                    图说
+                </div>
+                <div class="weui_navbar_item">
+                    听说
+                </div>
+            </div>
+            <div class="weui_tab_bd">
+                <div class="weui_tab_bd_item">
+                    <div class="weui_panel weui_panel_access">
+                        <div class="weui_panel_bd">
+                            <ul class="ui-media">
+                                <li class="ui-media-box">
+                                    <div class="ui-media-hd">
+                                        <img class="ui-media-thumb" src="images/author.jpg">
+                                    </div>
+                                    <div class="ui-media-bd">
+                                        <h4 class="ui-media-title">
+                                            <span class="pull-right">2小时前</span>
+                                            <a href="#">Jazmine Cole</a>
+                                        </h4>
+                                        <p class="ui-media-desc">如果你无法简洁的表达你的想法，那只说明你还不够了解它。</p>
+                                        <ul class="ui-media-img">
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                        </ul>
+                                        <div class="ui-media-control">
+                                            <span>3人喜欢，2人回复</span>
+                                            <div class="media-control-btns">
+                                                <a class="media-btn selected" href="#"><i class="iconfont icon-iconlikec"></i>喜欢</a>
+                                                <a class="media-btn" href="#"><i class="iconfont icon-iconcomment"></i>评论</a>
+                                            </div>
+                                        </div>
+                                        <div class="ui-media-enjoy">
+                                            <ul class="author-list">
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="ui-media-box">
+                                    <div class="ui-media-hd">
+                                        <img class="ui-media-thumb" src="images/author.jpg">
+                                    </div>
+                                    <div class="ui-media-bd">
+                                        <h4 class="ui-media-title">
+                                            <span class="pull-right">2小时前</span>
+                                            <a href="#">Jazmine Cole</a>
+                                        </h4>
+                                        <p class="ui-media-desc">如果你无法简洁的表达你的想法，那只说明你还不够了解它。</p>
+                                        <ul class="ui-media-img">
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                        </ul>
+                                        <div class="ui-media-control">
+                                            <span>3人喜欢，2人回复</span>
+                                            <div class="media-control-btns">
+                                                <a class="media-btn" href="#"><i class="iconfont icon-iconlike"></i>喜欢</a>
+                                                <a class="media-btn" href="#"><i class="iconfont icon-iconcomment"></i>评论</a>
+                                            </div>
+                                        </div>
+                                        <div class="ui-media-enjoy">
+                                            <ul class="author-list">
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="ui-media-box">
+                                    <div class="ui-media-hd">
+                                        <img class="ui-media-thumb" src="images/author.jpg">
+                                    </div>
+                                    <div class="ui-media-bd">
+                                        <h4 class="ui-media-title">
+                                            <span class="pull-right">2小时前</span>
+                                            <a href="#">Jazmine Cole</a>
+                                        </h4>
+                                        <p class="ui-media-desc">如果你无法简洁的表达你的想法，那只说明你还不够了解它。</p>
+                                        <ul class="ui-media-img">
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                            <li><a href="#" style="background-image:url(images/nature1.jpg)"></a></li>
+                                        </ul>
+                                        <div class="ui-media-control">
+                                            <span>3人喜欢，2人回复</span>
+                                            <div class="media-control-btns">
+                                                <a class="media-btn" href="#"><i class="iconfont icon-iconlike"></i>喜欢</a>
+                                                <a class="media-btn" href="#"><i class="iconfont icon-iconcomment"></i>评论</a>
+                                            </div>
+                                        </div>
+                                        <div class="ui-media-enjoy">
+                                            <ul class="author-list">
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="weui_panel_ft" href="javascript:void(0);">查看所有评论 ></a>
+                    </div>
+
+
+                </div>
+                <div class="weui_tab_bd_item">
+                    <div class="weui_panel weui_panel_access">
+                        <div class="weui_panel_bd">
+                            <ul class="ui-media">
+                                <li class="ui-media-box">
+                                    <div class="ui-media-hd">
+                                        <img class="ui-media-thumb" src="images/author.jpg">
+                                    </div>
+                                    <div class="ui-media-bd">
+                                        <h4 class="ui-media-title">
+                                            <span class="pull-right">2小时前</span>
+                                            <a href="#">Jazmine Cole</a>
+                                        </h4>
+                                        <p class="ui-media-desc">如果你无法简洁的表达你的想法，那只说明你还不够了解它。</p>
+                                        <div class="ui-media-audio">
+                                            <div class="ui-audio-bar">
+                                                <div class="ui-audio-progress">
+                                                    <div class="audio-progress-inner"></div>
+                                                </div>
+                                                <div class="ui-audio-data">
+                                                    <span>0:23</span>
+                                                </div>
+                                                <a class="audio-btn" data-toggle="audio-btn" href="javascript:;">
+                                                    <i class="iconfont icon-iconstart"></i>
+                                                    <audio preload="auto" src="images/e-01.mp3"></audio>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="ui-media-control">
+                                            <span>3人喜欢，2人回复</span>
+                                            <div class="media-control-btns">
+                                                <a class="media-btn selected" href="#"><i class="iconfont icon-iconlikec"></i>喜欢</a>
+                                                <a class="media-btn" href="#"><i class="iconfont icon-iconcomment"></i>评论</a>
+                                            </div>
+                                        </div>
+                                        <div class="ui-media-enjoy">
+                                            <ul class="author-list">
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="ui-media-box">
+                                    <div class="ui-media-hd">
+                                        <img class="ui-media-thumb" src="images/author.jpg">
+                                    </div>
+                                    <div class="ui-media-bd">
+                                        <h4 class="ui-media-title">
+                                            <span class="pull-right">2小时前</span>
+                                            <a href="#">Jazmine Cole</a>
+                                        </h4>
+                                        <p class="ui-media-desc">如果你无法简洁的表达你的想法，那只说明你还不够了解它。</p>
+                                        <div class="ui-media-audio">
+                                            <div class="ui-audio-bar">
+                                                <div class="ui-audio-progress">
+                                                    <div class="audio-progress-inner"></div>
+                                                </div>
+                                                <div class="ui-audio-data">
+                                                    <span>0:23</span>
+                                                </div>
+                                                <a class="audio-btn" data-toggle="audio-btn" href="javascript:;">
+                                                    <i class="iconfont icon-iconstart"></i>
+                                                    <audio preload="auto" src="images/b-01.mp3"></audio>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="ui-media-control">
+                                            <span>3人喜欢，2人回复</span>
+                                            <div class="media-control-btns">
+                                                <a class="media-btn selected" href="#"><i class="iconfont icon-iconlikec"></i>喜欢</a>
+                                                <a class="media-btn" href="#"><i class="iconfont icon-iconcomment"></i>评论</a>
+                                            </div>
+                                        </div>
+                                        <div class="ui-media-enjoy">
+                                            <ul class="author-list">
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="ui-media-box">
+                                    <div class="ui-media-hd">
+                                        <img class="ui-media-thumb" src="images/author.jpg">
+                                    </div>
+                                    <div class="ui-media-bd">
+                                        <h4 class="ui-media-title">
+                                            <span class="pull-right">2小时前</span>
+                                            <a href="#">Jazmine Cole</a>
+                                        </h4>
+                                        <p class="ui-media-desc">如果你无法简洁的表达你的想法，那只说明你还不够了解它。</p>
+                                        <div class="ui-media-audio">
+                                            <div class="ui-audio-bar">
+                                                <div class="ui-audio-progress">
+                                                    <div class="audio-progress-inner"></div>
+                                                </div>
+                                                <div class="ui-audio-data">
+                                                    <span>0:23</span>
+                                                </div>
+                                                <a class="audio-btn" data-toggle="audio-btn" href="javascript:;">
+                                                    <i class="iconfont icon-iconstart"></i>
+                                                    <audio preload="auto" src="images/e-02.mp3"></audio>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="ui-media-control">
+                                            <span>3人喜欢，2人回复</span>
+                                            <div class="media-control-btns">
+                                                <a class="media-btn" href="#"><i class="iconfont icon-iconlike"></i>喜欢</a>
+                                                <a class="media-btn" href="#"><i class="iconfont icon-iconcomment"></i>评论</a>
+                                            </div>
+                                        </div>
+                                        <div class="ui-media-enjoy">
+                                            <ul class="author-list">
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                                <li><img src="images/author.jpg" alt=""></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="weui_panel_ft" href="javascript:void(0);">查看所有评论 ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('.weui_tab').tab({defaultIndex: 1});
+        </script>
+    </div>
+
+
 </div>
 <div class="fix-btn-box ui-border-t">
     <ul>
