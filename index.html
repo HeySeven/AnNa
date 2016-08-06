@@ -94,7 +94,7 @@
         </div>
         <div class="index-video-bd">
             <!-- Swiper -->
-            <div class="swiper-container">
+            <div id="index-video-bd" class="swiper-container">
                 <div class="swiper-wrapper">
                     <a class="swiper-slide" href="#" style="background-image:url(images/nature1.jpg)"></a>
                     <a class="swiper-slide" href="#" style="background-image:url(images/nature1.jpg)"></a>
@@ -110,7 +110,7 @@
 
             <!-- Initialize Swiper -->
             <script>
-                var swiper = new Swiper('.swiper-container', {
+                var swiper = new Swiper('#index-video-bd', {
                     pagination: '.swiper-pagination',
                     effect: 'coverflow',
                     grabCursor: true,
@@ -399,9 +399,71 @@
         </script>
     </div>
     <div class="index-other-wrap mt-sm mb-sm ui-border-tb">
-
+        <div class="other-header"></div>
+        <div class="other-list-wrap">
+            <!-- Swiper -->
+            <div id="other-list" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" class="other-item"  style="background-image:url(images/nature1.jpg)">
+                            <dl class="ui-border-l">
+                                <dt>八大关</dt>
+                                <dd>2922人去过</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="other-item"  style="background-image:url(images/nature1.jpg)">
+                            <dl class="ui-border-l">
+                                <dt>大学路美术馆</dt>
+                                <dd>2922人去过</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="other-item"  style="background-image:url(images/nature1.jpg)">
+                            <dl class="ui-border-l">
+                                <dt>八大关</dt>
+                                <dd>2922人去过</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="other-item"  style="background-image:url(images/nature1.jpg)">
+                            <dl class="ui-border-l">
+                                <dt>八大关</dt>
+                                <dd>2922人去过</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="other-item"  style="background-image:url(images/nature1.jpg)">
+                            <dl class="ui-border-l">
+                                <dt>八大关</dt>
+                                <dd>2922人去过</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="other-item"  style="background-image:url(images/nature1.jpg)">
+                            <dl class="ui-border-l">
+                                <dt>八大关</dt>
+                                <dd>2922人去过</dd>
+                            </dl>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('#other-list', {
+            slidesPerView: 3,
+            spaceBetween: 15,
+            freeMode: true
+        });
+    </script>
 </div>
 <div class="fix-btn-box ui-border-t">
     <ul>

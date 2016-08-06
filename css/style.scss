@@ -490,7 +490,56 @@ a.ui-media-box {
     }
   }
 }
+.index-other-wrap{
+  background-color: #ffffff;
+  padding-top:$space-normal;
+  .other-header{
+    width: 1.18rem;
+    height: 1.24rem;
+    margin: 0 auto;
+    background: url(../images/other-header.png) 0 0 no-repeat;
+    @include x-background-size(contain);
+  }
+}
 
 
+.other-list-wrap{
+  padding: $space-normal 0 $space-normal $space-normal;
+  .other-item{
+    position: relative;
+    display: block;
+    width: 2rem;
+    height: 1.8rem;
+    background-position: center;
+    @include x-background-size(cover);
+    color: #ffffff;
+    &:before{
+      content: "";
+      background-color: rgba(51, 51, 51, 0.5);
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+    }
+    dl{
+      position: absolute;
+      bottom: $space-sm;
+      left:$space-sm;
+      right: 0;
+      line-height: 1.2;
+      z-index: 2;
+      padding:0 $space-xs;
+      dt{
+        font-size: $fz-sm;
+        @include x-text-overflow(ellipsis);
+      }
+      dd{
+        font-size: $fz-xs;
+      }
+    }
+  }
+}
 
 
