@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>视说发布页面-安娜别墅</title>
+    <link rel="stylesheet" href="weui/weui.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1470553485_8396928.css">
+    <link rel="stylesheet" href="plugins/Swiper/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="plugins/PhotoSwipe/photoswipe.css">
+    <link rel="stylesheet" href="plugins/PhotoSwipe/default-skin/default-skin.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="plugins/adaptive-version2.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="plugins/fastclick.min.js"></script>
+    <script src="weui/weui.js"></script>
+    <!--plugins-->
+    <script src="plugins/Swiper/swiper-3.3.1.jquery.min.js"></script>
+    <script src="plugins/PhotoSwipe/photoswipe.min.js"></script>
+    <script src="plugins/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+    <!--plugins end-->
+
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="weibo-header ui-border-b">
+        <div class="weibo-hd">
+            <img src="images/author.jpg" alt="">
+            <span>我</span>要分享
+        </div>
+        <div class="weibo-bd">
+            <div class="weui_cell ui-border">
+                <div class="weui_cell_bd weui_cell_primary">
+                    <textarea class="weui_textarea" placeholder="分享你此刻的心情和故事~" rows="3"></textarea>
+                    <div class="weui_textarea_counter"><span>0</span>/50</div>
+                </div>
+            </div>
+        </div>
+        <div class="weibo-fd">
+            <label class="checked" id="weibo-public" for="public">
+                <i class="iconfont icon-unchecked"></i>
+                <i class="iconfont icon-checked"></i>
+                <input type="checkbox" name="public" id="public" checked>
+                <span>公开   分享你的美好时刻</span>
+            </label>
+
+        </div>
+    </div>
+    <div class="weibo-body">
+        <div class="uploader-box" id="uploader"></div>
+        <div class="media-e">
+            <a href="" class="btn">确定发送</a>
+        </div>
+        <script>
+            $('#uploader').uploader({
+                title: '视频上传',
+                maxCount: 1,
+                accept:['video/*'],
+                onChange: function (file) {
+                    var update = this.update;
+                    var success = this.success;
+                    var error = this.error;
+                    $.ajax({
+                        type: 'POST',
+                        url: '/api/v1/upload?format=base64',
+                        data: {
+                            data: file.data
+                        },
+                        xhr: function () {
+                            var xhr = new window.XMLHttpRequest();
+                            xhr.addEventListener('progress', function (evt) {
+                                if (evt.lengthComputable) {
+                                    var percentComplete = evt.loaded / evt.total;
+                                    update(percentComplete + '%');
+                                }
+                            }, false);
+                            return xhr;
+                        },
+                        success: function (res) {
+                            success();
+                        },
+                        error: function (err) {
+                            error();
+                        }
+                    });
+                }
+            });
+        </script>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        var publicLabel = $("#weibo-public");
+        publicLabel.click(function () {
+            $(this).toggleClass("checked");
+        });
+
+    });
+</script>
+
+<div class="fix-btn-box ui-border-t">
+    <ul class="only-text">
+        <li>
+            <a href="#">图片</a>
+        </li>
+        <li>
+            <a href="#">录音</a>
+        </li>
+        <li class="active">
+            <a href="#">视频</a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
