@@ -118,6 +118,38 @@ img{
   overflow-x: hidden;
 }
 
+.btn {
+  display: inline-block;
+  padding: $space-sm 0.5rem;
+  border: 1px solid $color-light;
+  color: $color-normal;
+  @include x-border-radius(.56rem);
+  line-height: 1;
+  font-size: .22rem;
+  i{
+    font-size: .32rem;
+  }
+}
+
+.btn-danger {
+  border-color: $color-danger;
+  background-color: $color-danger;
+  color: #ffffff;
+  &:active {
+    background-color: darken($color-danger, 15%);
+  }
+}
+
+.btn-success {
+  border-color: $color-success !important;
+  background-color: $color-success !important;
+  color: #ffffff;
+  &:active {
+    background-color: darken($color-success, 15%) !important;
+  }
+}
+
+
 .weui_cells_tips {
   font-size: .2rem;
 }

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>发布页面-安娜别墅</title>
+    <link rel="stylesheet" href="weui/weui.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1470553485_8396928.css">
+    <link rel="stylesheet" href="plugins/Swiper/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="plugins/PhotoSwipe/photoswipe.css">
+    <link rel="stylesheet" href="plugins/PhotoSwipe/default-skin/default-skin.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="plugins/adaptive-version2.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="plugins/fastclick.min.js"></script>
+    <script src="weui/weui.js"></script>
+    <!--plugins-->
+    <script src="plugins/Swiper/swiper-3.3.1.jquery.min.js"></script>
+    <script src="plugins/PhotoSwipe/photoswipe.min.js"></script>
+    <script src="plugins/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+    <!--plugins end-->
+
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="weibo-header ui-border-b">
+        <div class="weibo-hd">
+            <img src="images/author.jpg" alt="">
+            <span>我</span>要分享
+        </div>
+        <div class="weibo-bd">
+            <div class="weui_cell ui-border">
+                <div class="weui_cell_bd weui_cell_primary">
+                    <textarea class="weui_textarea" placeholder="分享你此刻的心情和故事~" rows="3"></textarea>
+                    <div class="weui_textarea_counter"><span>0</span>/50</div>
+                </div>
+            </div>
+        </div>
+        <div class="weibo-fd">
+            <label class="checked" id="weibo-public" for="public">
+                <i class="iconfont icon-unchecked"></i>
+                <i class="iconfont icon-checked"></i>
+                <input type="checkbox" name="public" id="public" checked>
+                <span>公开   分享你的美好时刻</span>
+            </label>
+
+        </div>
+    </div>
+<div class="weibo-body">
+    <div class="media-wrap media-wb">
+        <dl class="media-new">
+            <dt>0:00</dt>
+            <dd>点击开始60’录音</dd>
+        </dl>
+        <div class="media-c">
+            <div class="media-c-a">
+                <span class="text-success"></span>
+            </div>
+            <div class="media-c-b">
+                <a class="media-btn-r" href="javascript:;">
+                    <i class="iconfont icon-iconrecord"></i>
+                </a>
+            </div>
+            <div class="media-c-c">
+            </div>
+        </div>
+        <div class="media-e">
+            <a href="" class="btn">确定发送</a>
+        </div>
+    </div>
+
+    <!--<div class="media-wrap media-wb">
+        <dl class="media-new">
+            <dt>0:05</dt>
+            <dd>正在录音</dd>
+        </dl>
+        <div class="media-c">
+            <div class="media-c-a">
+                <span class="text-success"></span>
+            </div>
+            <div class="media-c-b">
+                <a class="media-btn-r playing" href="javascript:;">
+                    <i class="iconfont icon-iconvoice"></i>
+                </a>
+            </div>
+            <div class="media-c-c">
+                <a href="javascript:;" class="media-re-btn usable">重录</a>
+            </div>
+        </div>
+        <div class="media-e">
+            <a href="" class="btn">确定发送</a>
+        </div>
+    </div>-->
+
+    <!--<div class="media-wrap media-wb">
+        <dl class="media-new">
+            <dt>0:23</dt>
+            <dd>录音完成</dd>
+        </dl>
+        <div class="media-c">
+            <div class="media-c-a">
+                <span class="text-success"></span>
+            </div>
+            <div class="media-c-b">
+                <a class="media-btn-r media-btn-outline" href="javascript:;">
+                    <i class="iconfont icon-iconstart"></i>
+                </a>
+            </div>
+            <div class="media-c-c">
+                <a href="javascript:;" class="media-re-btn usable">重录</a>
+            </div>
+        </div>
+        <div class="media-e">
+            <a href="" class="btn btn-success">确定发送</a>
+        </div>
+    </div>-->
+
+    <!--<div class="media-wrap media-wb">
+        <dl class="media-new">
+            <dt>0:23</dt>
+            <dd>播放中</dd>
+        </dl>
+        <div class="media-c">
+            <div class="media-c-a">
+                <span class="text-success"></span>
+            </div>
+            <div class="media-c-b">
+                <a class="media-btn-r media-btn-outline playing" href="javascript:;">
+                    <i class="iconfont icon-iconstop"></i>
+                </a>
+            </div>
+            <div class="media-c-c">
+                <a href="javascript:;" class="media-re-btn usable">重录</a>
+            </div>
+        </div>
+        <div class="media-e">
+            <a href="" class="btn btn-success">确定发送</a>
+        </div>
+    </div>-->
+
+
+</div>
+</div>
+
+<script>
+    $(function(){
+        var publicLabel = $("#weibo-public");
+        publicLabel.click(function(){
+           $(this).toggleClass("checked");
+        });
+
+    });
+</script>
+
+<div class="fix-btn-box ui-border-t">
+    <ul class="only-text">
+        <li>
+            <a href="#">图片</a>
+        </li>
+        <li class="active">
+            <a href="#">录音</a>
+        </li>
+        <li>
+            <a href="#">视频</a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
