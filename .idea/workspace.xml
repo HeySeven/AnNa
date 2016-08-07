@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcfc3b6-241d-4d0c-ab2f-1bebbf509db9" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/发布页面.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/录音发布页面.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/发布页面.html" afterPath="$PROJECT_DIR$/图说发布页面.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_common.scss" afterPath="$PROJECT_DIR$/css/_common.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/资料详情.html" afterPath="$PROJECT_DIR$/资料详情.html" />
     </list>
     <ignored path="安娜别墅.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +31,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44617563">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.46458924">
+              <caret line="757" column="31" selection-start-line="757" selection-start-column="31" selection-end-line="757" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -50,11 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="发布页面.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/发布页面.html">
+      <file leaf-file-name="录音发布页面.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/录音发布页面.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.592592">
+            <state vertical-scroll-proportion="-31.037037">
               <caret line="158" column="22" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="图说发布页面.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/图说发布页面.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.925926">
+              <caret line="53" column="27" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -104,6 +112,7 @@
         <option value="$PROJECT_DIR$/css/_common.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/发布页面.html" />
+        <option value="$PROJECT_DIR$/图说发布页面.html" />
         <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
@@ -203,7 +212,7 @@
       <recent name="$PROJECT_DIR$/plugins/Swiper" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.发布页面.html">
+  <component name="RunManager" selected="JavaScript Debug.图说发布页面.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/index.html">
       <method />
     </configuration>
@@ -213,7 +222,10 @@
     <configuration default="false" name="资料详情.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/资料详情.html">
       <method />
     </configuration>
-    <configuration default="false" name="发布页面.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/发布页面.html">
+    <configuration default="false" name="录音发布页面.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/录音发布页面.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="图说发布页面.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/图说发布页面.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -264,18 +276,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.资料详情.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.发布页面.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.录音发布页面.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.图说发布页面.html" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.发布页面.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.资料详情.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.图说发布页面.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.录音发布页面.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.资料详情.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -445,18 +459,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/发布页面.html">
+    <entry file="file://$PROJECT_DIR$/录音发布页面.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.592592">
+        <state vertical-scroll-proportion="-31.037037">
           <caret line="158" column="22" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图说发布页面.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.925926">
+          <caret line="53" column="27" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44617563">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.46458924">
+          <caret line="757" column="31" selection-start-line="757" selection-start-column="31" selection-end-line="757" selection-end-column="31" />
           <folding />
         </state>
       </provider>

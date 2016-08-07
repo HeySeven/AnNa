@@ -754,6 +754,8 @@ a.ui-media-box {
 }
 
 .media-e {
+  text-align: center;
+  margin-bottom: $space-normal;
   .btn {
     color: #ffffff;
     background-color: #d2d2d2;
@@ -828,3 +830,22 @@ a.ui-media-box {
     margin-top: .7rem;
   }
 }
+
+.uploader-box{
+  min-height: 3.4rem;
+  padding:$space-sm $space-normal;
+  *{
+    @include x-box-sizing(content-box);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
