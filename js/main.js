@@ -53,4 +53,15 @@ $(function () {
     $("body").on("click", "[data-toggle='audio-btn']", function () {
         audioPlay($(this));//播放音频
     });
+
+    //出现?消失评论框
+    function toggleReply(){
+        $(".reply-fixed-wrap").addClass("focus").find(".reply-control").focus();
+    };
+    $("body").on("click", "[data-toggle='reply-btn']", function () {
+        toggleReply();
+    });
+    $(".reply-control").blur(function(){
+        $(".reply-fixed-wrap").removeClass("focus")
+    });
 });

@@ -465,7 +465,7 @@
   font-size: $fz-xs;
   border: 1px solid $color-border;
   line-height: .44rem;
-  &:hover, &:active, &.selected {
+  &:hover, &:active {
     background-color: #e5e5e5;
   }
   &.selected {
@@ -924,9 +924,65 @@ a.ui-media-box {
   text-shadow: 1px 1px 0 rgb(255, 255, 255);
 }
 
+.comment-panel{
+  .comment-panel-header{
+    padding:0 $space-normal;
+    color: $color-light;
+  }
+  .comment-panel-body{
+    background-color: #fff;
+  }
+  .ui-media-box {
+    .ui-media-hd{
+      width: .5rem;
+      height: .5rem;
+      line-height: .5rem;
+    }
+  }
+}
 
+.reply-box{
+  position: relative;
+  margin-top: $space-xs;
+  padding: $space-xs;
+  background-color: #f5f5f5;
+  @include x-border-radius(2px);
+  &:before{
+    content: "";
+    position: absolute;
+    top: -.2rem;
+    left: .1rem;
+    width: 0;
+    height: 0;
+    border: .1rem solid #f5f5f5;
+    border-color: transparent transparent #f5f5f5 transparent;
+  }
+  li{
+    margin-bottom: .04rem;;
+  }
+  a{
+    color: $color-success;
+  }
+}
 
-
-
-
+.reply-fixed-wrap{
+  z-index: 11;
+  @include x-transition(all ease-out .5s);
+  @include x-transform(translateY(86rem));
+  &.focus{
+    @include x-transform(translateY(0));
+  }
+  .reply-input{
+    height: .86rem;
+    padding: $space-sm;
+    .reply-control{
+      display: block;
+      height: .46rem;
+      width: 100%;
+      &:focus,&active{
+        outline: 1px solid #fdfdfd;
+      }
+    }
+  }
+}
 
