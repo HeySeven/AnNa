@@ -148,8 +148,15 @@ img{
     background-color: darken($color-success, 15%) !important;
   }
 }
-
-
+.weui_cell{
+  padding:$space-sm $space-normal;
+}
+.weui_cells_access .weui_cell_ft:after{
+  width: .2rem;
+  height: .2rem;
+  border-width:1px 1px 0 0;
+  top:inherit;
+}
 .weui_cells_tips {
   font-size: .2rem;
 }
@@ -181,4 +188,7 @@ img{
 }
 .mb-sm{
   margin-bottom: $space-sm!important;
+}
+.mt-none{
+  margin-top: 0!important;
 }
