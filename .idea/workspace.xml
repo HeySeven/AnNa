@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcfc3b6-241d-4d0c-ab2f-1bebbf509db9" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/center-header.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio-detail.html" afterPath="$PROJECT_DIR$/audio-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio-list.html" afterPath="$PROJECT_DIR$/audio-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-detail.html" afterPath="$PROJECT_DIR$/img-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-list.html" afterPath="$PROJECT_DIR$/img-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-publish.html" afterPath="$PROJECT_DIR$/img-publish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-center.html" afterPath="$PROJECT_DIR$/my-center.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-comment.html" afterPath="$PROJECT_DIR$/my-comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-detail.html" afterPath="$PROJECT_DIR$/page-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-detail.html" afterPath="$PROJECT_DIR$/video-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-list.html" afterPath="$PROJECT_DIR$/video-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-publish.html" afterPath="$PROJECT_DIR$/video-publish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/your-center.html" afterPath="$PROJECT_DIR$/your-center.html" />
     </list>
     <ignored path="安娜别墅.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +27,7 @@
       <file leaf-file-name="img-detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.185184">
+            <state vertical-scroll-proportion="0.0">
               <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
               <folding />
             </state>
@@ -53,7 +37,7 @@
       <file leaf-file-name="img-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.592592">
+            <state vertical-scroll-proportion="0.0">
               <caret line="200" column="21" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
               <folding />
             </state>
@@ -63,7 +47,7 @@
       <file leaf-file-name="my-center.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-center.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.962963">
+            <state vertical-scroll-proportion="0.0">
               <caret line="74" column="51" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
               <folding />
             </state>
@@ -73,7 +57,7 @@
       <file leaf-file-name="my-comment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-comment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.11111">
+            <state vertical-scroll-proportion="0.0">
               <caret line="108" column="54" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
               <folding />
             </state>
@@ -83,7 +67,7 @@
       <file leaf-file-name="page-detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.25926">
+            <state vertical-scroll-proportion="0.0">
               <caret line="160" column="35" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
               <folding />
             </state>
@@ -93,7 +77,7 @@
       <file leaf-file-name="video-detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.962963">
+            <state vertical-scroll-proportion="0.0">
               <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
               <folding />
             </state>
@@ -103,7 +87,7 @@
       <file leaf-file-name="video-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5925927">
+            <state vertical-scroll-proportion="0.0">
               <caret line="175" column="21" selection-start-line="175" selection-start-column="21" selection-end-line="175" selection-end-column="21" />
               <folding />
             </state>
@@ -113,8 +97,8 @@
       <file leaf-file-name="your-center.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/your-center.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2837653">
-              <caret line="200" column="58" selection-start-line="200" selection-start-column="58" selection-end-line="200" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.114597544">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -161,7 +145,7 @@
       <file leaf-file-name="audio-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audio-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.592592">
+            <state vertical-scroll-proportion="0.0">
               <caret line="310" column="21" selection-start-line="310" selection-start-column="21" selection-end-line="310" selection-end-column="21" />
               <folding />
             </state>
@@ -171,7 +155,7 @@
       <file leaf-file-name="audio-publish.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audio-publish.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-94.111115">
+            <state vertical-scroll-proportion="0.0">
               <caret line="157" column="2" selection-start-line="157" selection-start-column="0" selection-end-line="169" selection-end-column="6" />
               <folding />
             </state>
@@ -297,6 +281,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="安娜别墅" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="安娜别墅" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -323,10 +321,7 @@
       <recent name="$PROJECT_DIR$/plugins/Swiper" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.audio-detail.html">
-    <configuration default="false" name="img-list.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/img-list.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.your-center.html">
     <configuration default="false" name="img-detail.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/img-detail.html">
       <method />
     </configuration>
@@ -337,6 +332,9 @@
       <method />
     </configuration>
     <configuration default="false" name="page-detail.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/page-detail.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="your-center.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/your-center.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -388,19 +386,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.img-list.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.img-detail.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.audio-detail.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.audio-publish.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.page-detail.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.img-detail.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.audio-detail.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.audio-publish.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.page-detail.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.your-center.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.audio-detail.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.page-detail.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.audio-publish.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.img-detail.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.img-list.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.your-center.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.audio-detail.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.page-detail.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.audio-publish.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.img-detail.html" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +443,13 @@
       <option name="project" value="LOCAL" />
       <updated>1470845497719</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="评论修改  静态链接">
+      <created>1470886778521</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1470886778521</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -454,14 +458,13 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19222614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278272" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278272" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -472,6 +475,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -490,7 +494,8 @@
     <MESSAGE value="详情页提交" />
     <MESSAGE value="个人中心" />
     <MESSAGE value="二级评论修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="二级评论修改" />
+    <MESSAGE value="评论修改  静态链接" />
+    <option name="LAST_COMMIT_MESSAGE" value="评论修改  静态链接" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -509,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="444" column="5" selection-start-line="444" selection-start-column="5" selection-end-line="444" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="444" column="5" selection-start-line="444" selection-start-column="5" selection-end-line="444" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.8148148">
           <caret line="974" column="35" selection-start-line="974" selection-start-column="35" selection-end-line="974" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.148148">
           <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.148148">
           <caret line="116" column="6" selection-start-line="116" selection-start-column="6" selection-end-line="116" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.0370371">
           <caret line="407" column="30" selection-start-line="407" selection-start-column="30" selection-end-line="407" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,13 +792,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9375">
           <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/audio-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.592592">
+        <state vertical-scroll-proportion="0.0">
           <caret line="310" column="21" selection-start-line="310" selection-start-column="21" selection-end-line="310" selection-end-column="21" />
           <folding />
         </state>
@@ -812,7 +805,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/audio-publish.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-94.111115">
+        <state vertical-scroll-proportion="0.0">
           <caret line="157" column="2" selection-start-line="157" selection-start-column="0" selection-end-line="169" selection-end-column="6" />
           <folding />
         </state>
@@ -820,7 +813,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.185184">
+        <state vertical-scroll-proportion="0.0">
           <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
           <folding />
         </state>
@@ -828,7 +821,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.592592">
+        <state vertical-scroll-proportion="0.0">
           <caret line="200" column="21" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
           <folding />
         </state>
@@ -836,7 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-center.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.962963">
+        <state vertical-scroll-proportion="0.0">
           <caret line="74" column="51" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
           <folding />
         </state>
@@ -844,7 +837,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-comment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.11111">
+        <state vertical-scroll-proportion="0.0">
           <caret line="108" column="54" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
           <folding />
         </state>
@@ -852,7 +845,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.25926">
+        <state vertical-scroll-proportion="0.0">
           <caret line="160" column="35" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
           <folding />
         </state>
@@ -860,7 +853,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.962963">
+        <state vertical-scroll-proportion="0.0">
           <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
           <folding />
         </state>
@@ -868,7 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5925927">
+        <state vertical-scroll-proportion="0.0">
           <caret line="175" column="21" selection-start-line="175" selection-start-column="21" selection-end-line="175" selection-end-column="21" />
           <folding />
         </state>
@@ -876,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/your-center.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2837653">
-          <caret line="200" column="58" selection-start-line="200" selection-start-column="58" selection-end-line="200" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.114597544">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
