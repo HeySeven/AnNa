@@ -55,13 +55,16 @@ $(function () {
     });
 
     //出现?消失评论框
-    function toggleReply(){
+    function openReply(){
         $(".reply-fixed-wrap").addClass("focus").find(".reply-control").focus();
     };
+    function closeReply(){
+        $(".reply-fixed-wrap").removeClass("focus");
+    };
     $("body").on("click", "[data-toggle='reply-btn']", function () {
-        toggleReply();
+        openReply();
     });
     $(".reply-control").blur(function(){
-        $(".reply-fixed-wrap").removeClass("focus")
+        closeReply();
     });
 });

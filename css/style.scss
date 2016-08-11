@@ -966,25 +966,35 @@ a.ui-media-box {
 }
 
 .reply-fixed-wrap {
+  top: 0;
+  right: 0;
   z-index: 11;
   @include x-transition(all ease-out .5s);
-  @include x-transform(translateY(86rem));
+  @include x-transform(translateX(100%));
   &.focus {
-    @include x-transform(translateY(0));
+    @include x-transform(translateX(0));
   }
-  .reply-input {
-    height: .86rem;
-    padding: $space-sm;
-    .reply-control {
-      -webkit-appearance: none;
-      -webkit-tap-highlight-color: rgba(0,0,0,0);
-      display: block;
-      height: .46rem;
-      width: 100%;
-      &:focus, &active {
-        outline: 1px solid #fdfdfd;
-      }
+  .reply-header{
+    @include flexbox();
+    @include box-align(center);
+    padding: .3rem $space-sm;
+    h2{
+      @include flex(1);
+      font-size: .28rem;
+      color: $color-darker;
+      font-weight: normal;
     }
+    .back-link{
+      font-size: .26rem;
+      color: $color-light;
+    }
+    .submit-link{
+      font-size: .26rem;
+      color: $color-success;
+    }
+  }
+  .reply-body{
+    padding: $space-sm ;
   }
 }
 
