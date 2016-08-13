@@ -1234,10 +1234,10 @@ a.ui-media-box {
     height: 100%;
     background-position: center;
     @include x-background-size(cover);
-    -webkit-filter: blur(10px); /* Chrome, Opera */
-    -moz-filter: blur(10px);
-    -ms-filter: blur(10px);
-    filter: blur(10px);
+    -webkit-filter: blur(20px); /* Chrome, Opera */
+    -moz-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
   }
 }
 
@@ -1263,8 +1263,9 @@ a.ui-media-box {
   @include x-background-size(4.64rem);
   @include x-border-radius(.06rem);
   @include x-box-shadow(0 0 10px rgba(51, 51, 51, 0.48));
+  overflow: hidden;
   .postcard-inner{
-    padding:1.05rem $space-sm 0;
+    padding:1.05rem $space-sm $space-sm;
   }
 }
 
@@ -1310,4 +1311,25 @@ a.ui-media-box {
   word-break: break-all;
 }
 
+.postcard-footer{
+  padding: $space-xs 0;
+  @include flexbox();
+  dt{
+    @include flex(1);
+    padding-right: $space-xs;
+    color: $color-light;
+    text-align: right;
+  }
+  dd{
+    color: $color-darker;
+  }
+}
 
+
+.edit-btn-wrap{
+  text-align: center;
+  margin-top: .5rem;
+  .btn{
+    min-width: 1.8rem;
+  }
+}

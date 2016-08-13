@@ -119,6 +119,8 @@ img{
 }
 
 .btn {
+  -webkit-appearance: button;
+  cursor: pointer;
   display: inline-block;
   padding: $space-sm 0.5rem;
   border: 1px solid $color-light;
