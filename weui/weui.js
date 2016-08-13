@@ -695,7 +695,7 @@
                         blobs.push({ name: file.name, blob: blob });
                         var blobUrl = URL.createObjectURL(blob);
 
-                        $files.append('<li class="weui_uploader_file " style="background-image:url(' + blobUrl + ')"></li>');
+                        $files.append('<li class="weui_uploader_file " style="background-image:url(' + blobUrl + ')"><i class="iconfont icon-icondelete"></i></li>');
                         $uploader.find('.weui_uploader_hd .weui_cell_ft').text(blobs.length + '/' + options.maxCount);
 
                         // trigger onAddedfile event
@@ -726,9 +726,11 @@
             });
         });
 
-        this.on('click', '.weui_uploader_file', function () {
+        this.on('click', '.weui_uploader_file i', function () {
+            var nowDom = $(this).parent('.weui_uploader_file');
             $.weui.confirm('确定删除该图片?', function () {
-                var index = $(_this).index();
+                console.log(nowDom);
+                var index = nowDom.index();
                 _this.remove(index);
             });
         });

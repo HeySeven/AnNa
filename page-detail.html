@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>资料详情-安娜别墅</title>
     <link rel="stylesheet" href="weui/weui.css">
-    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1470836427_7562108.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1471065914_6108015.css">
     <link rel="stylesheet" href="plugins/Swiper/swiper-3.3.1.min.css">
     <link rel="stylesheet" href="plugins/PhotoSwipe/photoswipe.css">
     <link rel="stylesheet" href="plugins/PhotoSwipe/default-skin/default-skin.css">
@@ -29,23 +29,9 @@
     <div class="head-img-box">
         <a class="head-img-link" href="#">
             <img src="images/head-img.jpg" alt="安娜别墅">
-            <dl class="header-weather-box">
-                <dt>
-                    青岛
-                    <small>晴转多云 35℃~38℃</small>
-                </dt>
-                <dd>
-                    567
-                    <small>人来过这里</small>
-                </dd>
-            </dl>
-            <span class="pic-info ui-border">
-                367<br>
-                张照片 <i class="iconfont icon-right"></i>
-            </span>
         </a>
     </div>
-    <div class="weui_panel weui_panel_access ui-panel">
+    <div class="weui_panel weui_panel_access mt-none ui-panel">
         <div class="weui_panel_hd">青岛安娜别墅</div>
         <div class="weui_panel_bd">
             <div class="panel-inner">
@@ -107,10 +93,11 @@
 
 </div>
 
-<a data-toggle="slid-btn" href="###" class="catalogue-btn">
-    <i class="iconfont icon-iconlist"></i>
-    目录
-</a>
+<div class="fix-right-control">
+    <a class="go-top"><i class="iconfont icon-icontop"></i></a>
+    <a data-toggle="slid-btn" class="catalogue-btn">目录</a>
+</div>
+
 <div class="model-drop"></div>
 <div class="side-menu-bar">
     <div class="catalogue-hd ui-border-b">安娜别墅资料目录</div>
@@ -167,6 +154,11 @@
 </div>
 <script>
     $(function() {
+        $(".go-top").click(function(){
+            var speed=500;//滑动的速度
+            $('body,html').animate({ scrollTop: 0 }, speed);
+            return false;
+        });
         function toggleSlid() {
             var t = $(".side-menu-bar");
             t.toggleClass("open").prev(".model-drop").fadeToggle(300)
