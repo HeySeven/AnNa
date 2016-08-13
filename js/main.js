@@ -57,9 +57,11 @@ $(function () {
     //出现?消失评论框
     function openReply(){
         $(".reply-fixed-wrap").addClass("focus").find(".reply-control").focus();
+        $("html").addClass("overflow-hidden");
     };
     function closeReply(){
         $(".reply-fixed-wrap").removeClass("focus");
+        $("html").removeClass("overflow-hidden");
     };
     $("body").on("click", "[data-toggle='reply-btn']", function () {
         openReply();

@@ -223,5 +223,8 @@ img{
   color: $color-success;
 }
 
-
+html.overflow-hidden, html.overflow-hidden body{
+  height: 100%;
+  overflow: hidden;
+}
 
