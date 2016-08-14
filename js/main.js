@@ -39,14 +39,16 @@ $(function () {
             eleAudio.currentTime = 0;
             $(eleAudio).siblings("i").attr("class", "iconfont icon-iconstart")
                 .closest(".ui-audio-bar").removeClass("playing")
-                .find(".audio-progress-inner").removeAttr("style");;
+                .find(".audio-progress-inner").removeAttr("style");
+            ;
         }
 
         //播放完毕时
         eleAudio.onended = function () {
             $(eleAudio).siblings("i").attr("class", "iconfont icon-iconstart")
                 .closest(".ui-audio-bar").removeClass("playing")
-                .find(".audio-progress-inner").removeAttr("style");;//移除播放效果
+                .find(".audio-progress-inner").removeAttr("style");
+            ;//移除播放效果
         }
     };
 
@@ -54,19 +56,36 @@ $(function () {
         audioPlay($(this));//播放音频
     });
 
+
+    function playPause(el) {
+        var eleVideo = el.siblings("video").get(0);//视频js对象
+        var $eleVideoWrap = el.closest(".media-video-link");
+        if (eleVideo.paused) {
+            eleVideo.play();
+            $eleVideoWrap.addClass("playing");
+        } else {
+            eleVideo.pause();
+            $eleVideoWrap.removeClass("playing");
+        }
+    }
+
+    $("body").on("click", "[data-toggle='media-video-btn']", function () {
+        playPause($(this));
+    });
+
     //出现?消失评论框
-    function openReply(){
+    function openReply() {
         $(".reply-fixed-wrap").addClass("focus").find(".reply-control").focus();
         $("html").addClass("overflow-hidden");
     };
-    function closeReply(){
+    function closeReply() {
         $(".reply-fixed-wrap").removeClass("focus");
         $("html").removeClass("overflow-hidden");
     };
     $("body").on("click", "[data-toggle='reply-btn']", function () {
         openReply();
     });
-    $(".reply-control").blur(function(){
+    $(".reply-control").blur(function () {
         closeReply();
     });
 });
