@@ -119,7 +119,7 @@ img{
 }
 
 .btn {
-  -webkit-appearance: button;
+  -webkit-appearance: none;
   cursor: pointer;
   display: inline-block;
   padding: $space-sm 0.5rem;
@@ -152,6 +152,11 @@ img{
 }
 .weui_cell{
   padding:$space-sm $space-normal;
+}
+.weui_uploader_hd {
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 .weui_cells_access .weui_cell_ft:after{
   width: .2rem;
