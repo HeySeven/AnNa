@@ -1020,16 +1020,6 @@ a.ui-media-box {
   padding: $space-xs;
   background-color: #f5f5f5;
   @include x-border-radius(2px);
-  &:before {
-    content: "";
-    position: absolute;
-    top: -.2rem;
-    left: .1rem;
-    width: 0;
-    height: 0;
-    border: .1rem solid #f5f5f5;
-    border-color: transparent transparent #f5f5f5 transparent;
-  }
   li {
     margin-bottom: .04rem;;
   }
@@ -1070,6 +1060,21 @@ a.ui-media-box {
     padding: $space-sm ;
   }
 }
+.jia-reply{
+  padding: .15rem $space-sm;
+  @include x-box-shadow(0 -3px 2px rgba(0,0,0,.05));
+  .jia-reply-inner{
+    padding: 0 $space-sm;
+    line-height:.5rem;
+    border: 1px solid #e5e5e5;
+    background-color: #f7f7f7;
+    @include x-border-radius(.05rem);
+    color: $color-light;
+    font-size: $fz-xs;
+    text-align: left;
+  }
+}
+
 
 .center-header {
   background-color: $color-success;
