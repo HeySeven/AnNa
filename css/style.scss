@@ -303,11 +303,11 @@
       display: none;
     }
     & + .weui_tab_bd {
-      padding-top: 1rem;
+      padding-top: .9rem;
     }
   }
   .weui_navbar_item {
-    padding: $space-normal 0 $space-sm;
+    padding: $space-sm 0 $space-sm;
     color: $color-darker;
     font-size: $fz-big;
     &:after {
@@ -407,8 +407,8 @@
   @include x-clearfix();
   li {
     float: left;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.86rem;
+    height: 1.86rem;
     margin-right: .1rem;
     margin-bottom: .1rem;
     &:nth-child(3n) {
@@ -428,7 +428,7 @@
   padding: $space-xs 0;
   a.media-video-link{
     &:before{
-      content: "\e618";
+      content: "\e623";
       position: absolute;
       left: 50%;
       top: 50%;
@@ -513,6 +513,9 @@
   font-size: $fz-xs;
   border: 1px solid $color-border;
   line-height: .44rem;
+  &+.media-btn{
+    margin-left:$space-xs;
+  }
   &:hover, &:active {
     background-color: #e5e5e5;
   }
@@ -910,9 +913,9 @@ a.ui-media-box {
 
 .media-re-btn {
   display: inline-block;
-  width: .7rem;
-  height: .7rem;
-  line-height: .7rem;
+  width: .8rem;
+  height: .8rem;
+  line-height: .8rem;
   color: #ffffff;
   @include x-border-radius(50%);
   background-color: #d2d2d2;
@@ -933,8 +936,15 @@ a.ui-media-box {
       color: $color-lighter;
     }
   }
+  .media-status{
+    margin-top: .6rem;
+    height: .3rem;
+    line-height:.3rem;
+    text-align: center;
+    font-size: $fz-xs;
+  }
   .media-e {
-    margin-top: .7rem;
+    margin-top: .2rem;
   }
 }
 
@@ -973,8 +983,8 @@ a.ui-media-box {
   }
   .ui-media-img {
     li {
-      width: 1.7rem;
-      height: 1.7rem;
+      width: 1.86rem;
+      height: 1.86rem;
     }
   }
 }
@@ -1150,6 +1160,9 @@ a.ui-media-box {
     small {
       display: block;
     }
+  }
+  .weui_tab_bd{
+    padding-top: 1rem!important;
   }
 }
 
