@@ -1422,3 +1422,12 @@ a.ui-media-box {
     }
   }
 }
+
+
+.pswp img{
+  max-width: inherit;
+}
+.pswp__zoom-wrap{
+  @include flexbox();
+  @include box-align(center);
+}
