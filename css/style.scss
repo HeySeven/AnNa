@@ -1321,15 +1321,19 @@ a.ui-media-box {
 }
 
 .postcard-bg-c{
-
+  text-align: center;
   position: absolute;
   left: 50%;
   margin-left:-3.03rem;
   bottom: 0;
   width: 6.06rem;
   height: 3.03rem;
+  padding-top: 1.8rem;
   background: url(../images/postcard-bg-c.png) center bottom no-repeat;
   @include x-background-size(contain);
+  .btn{
+    padding: .15rem 0.5rem;
+  }
 }
 
 .post-date{
@@ -1372,6 +1376,7 @@ a.ui-media-box {
     text-align: right;
   }
   dd{
+    min-width: .9rem;
     color: $color-darker;
   }
 }
@@ -1393,3 +1398,27 @@ a.ui-media-box {
   }
 }
 
+.postcard-list{
+  background-color: #ffffff;
+  .weui_media_box.weui_media_appmsg {
+    @include box-align(flex-start);
+    .weui_media_hd{
+      width: .9rem;
+      height: .9rem;
+      background: center no-repeat;
+      @include x-background-size(cover);
+    }
+    .weui_media_title{
+      font-size: $fz-sm;
+      color: $color-light;
+      margin-bottom: $space-xs;
+      small{
+        font-size: $fz-xs;
+      }
+    }
+    .weui_media_desc{
+      font-size: $fz-normal;
+      color: $color-normal;
+    }
+  }
+}
