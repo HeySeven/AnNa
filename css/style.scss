@@ -350,7 +350,7 @@
     height: .84rem;
     line-height: .84rem;
     text-align: center;
-    &>a{
+    & > a {
       display: block;
       width: 100%;
       height: 100%;
@@ -394,8 +394,8 @@
 }
 
 .ui-media-desc {
-  font-size: $fz-sm;
-  line-height: .4rem;
+  font-size: $fz-normal;
+  line-height: .44rem;
   a {
     display: block;
     color: $color-normal;
@@ -426,8 +426,8 @@
 
 .ui-media-video {
   padding: $space-xs 0;
-  a.media-video-link{
-    &:before{
+  a.media-video-link {
+    &:before {
       content: "\e623";
       position: absolute;
       left: 50%;
@@ -442,7 +442,7 @@
       -webkit-text-stroke-width: 0.2px;
       -moz-osx-font-smoothing: grayscale;
       color: #ffffff;
-      text-shadow: 0 0 5px rgba(51,51,51,0.5)
+      text-shadow: 0 0 5px rgba(51, 51, 51, 0.5)
     }
   }
   .media-video-link {
@@ -451,11 +451,11 @@
     width: 5.8rem;
     height: 3.1rem;
     @include x-background-size(cover);
-    &.playing{
-      .media-video-btn{
+    &.playing {
+      .media-video-btn {
         display: none;
       }
-      video{
+      video {
         @include x-opacity(1);
       }
     }
@@ -472,7 +472,7 @@
       text-shadow: 0 0 5px rgba(51, 51, 51, 0.5);
       z-index: 1;
     }
-    video{
+    video {
       position: absolute;
       left: 0;
       top: 0;
@@ -483,6 +483,7 @@
     }
   }
 }
+
 .ui-media-image {
   padding: $space-xs 0;
   .media-image-link {
@@ -494,6 +495,7 @@
     @include x-background-size(cover);
   }
 }
+
 .ui-media-control {
   padding: $space-xs 0;
   @include x-clearfix();
@@ -513,8 +515,8 @@
   font-size: $fz-xs;
   border: 1px solid $color-border;
   line-height: .44rem;
-  &+.media-btn{
-    margin-left:$space-xs;
+  & + .media-btn {
+    margin-left: $space-xs;
   }
   &:hover, &:active {
     background-color: #e5e5e5;
@@ -666,12 +668,14 @@ a.ui-media-box {
     }
   }
 }
-.fix-right-control{
+
+.fix-right-control {
   position: fixed;
   bottom: 2rem;
-  right:$space-normal;
+  right: $space-normal;
 }
-.catalogue-btn,.go-top {
+
+.catalogue-btn, .go-top {
   display: block;
   width: .8rem;
   height: .8rem;
@@ -687,10 +691,11 @@ a.ui-media-box {
     font-size: .28rem;
   }
 }
-.go-top{
+
+.go-top {
   background-color: rgba(255, 255, 255, 0.9);
   margin-bottom: $space-xs;
-  i{
+  i {
     font-size: .4rem;
     color: $color-darker;
   }
@@ -711,7 +716,7 @@ a.ui-media-box {
 .side-menu-bar {
   position: fixed;
   right: 0;
-  width: 90%;
+  width: 70%;
   height: 100%;
   top: 0;
   z-index: 1000;
@@ -884,7 +889,7 @@ a.ui-media-box {
   background-color: $color-success;
   @include x-box-shadow((0 0 0px 7px rgba(48, 199, 147, 0.37), 0 0 0px 15px rgba(48, 199, 147, 0.1)));
   &.playing {
-    animation: playing 2s ease-out infinite;
+    @include x-animation(playing 2s ease-out infinite);
   }
   i {
     color: #ffffff;
@@ -936,10 +941,10 @@ a.ui-media-box {
       color: $color-lighter;
     }
   }
-  .media-status{
+  .media-status {
     margin-top: .6rem;
     height: .3rem;
-    line-height:.3rem;
+    line-height: .3rem;
     text-align: center;
     font-size: $fz-xs;
   }
@@ -1037,35 +1042,36 @@ a.ui-media-box {
   &.focus {
     @include x-transform(translateX(0));
   }
-  .reply-header{
+  .reply-header {
     @include flexbox();
     @include box-align(center);
     padding: .3rem $space-sm;
-    h2{
+    h2 {
       @include flex(1);
       font-size: .28rem;
       color: $color-darker;
       font-weight: normal;
     }
-    .back-link{
+    .back-link {
       font-size: .26rem;
       color: $color-light;
     }
-    .submit-link{
+    .submit-link {
       font-size: .26rem;
       color: $color-success;
     }
   }
-  .reply-body{
-    padding: $space-sm ;
+  .reply-body {
+    padding: $space-sm;
   }
 }
-.jia-reply{
+
+.jia-reply {
   padding: .15rem $space-sm;
-  @include x-box-shadow(0 -3px 2px rgba(0,0,0,.05));
-  .jia-reply-inner{
+  @include x-box-shadow(0 -3px 2px rgba(0, 0, 0, .05));
+  .jia-reply-inner {
     padding: 0 $space-sm;
-    line-height:.5rem;
+    line-height: .5rem;
     border: 1px solid #e5e5e5;
     background-color: #f7f7f7;
     @include x-border-radius(.05rem);
@@ -1074,7 +1080,6 @@ a.ui-media-box {
     text-align: left;
   }
 }
-
 
 .center-header {
   background-color: $color-success;
@@ -1097,7 +1102,7 @@ a.ui-media-box {
     dd {
       margin-top: .1rem;
       color: #ffffff;
-      font-size: $fz-sm;
+      font-size: $fz-normal;
     }
   }
 }
@@ -1159,19 +1164,19 @@ a.ui-media-box {
 
 .center-tab-wrap {
   .weui_navbar_item {
-    padding:.22rem 0 .2rem;
+    padding: .22rem 0 .2rem;
     line-height: 1.2;
     font-size: .26rem;
     small {
       display: block;
     }
   }
-  .weui_tab_bd{
-    padding-top: 1rem!important;
+  .weui_tab_bd {
+    padding-top: 1rem !important;
   }
 }
 
-.center-media-img{
+.center-media-img {
   padding: $space-sm;
   @include x-clearfix();
   li {
@@ -1193,9 +1198,9 @@ a.ui-media-box {
   }
 }
 
-.center-media-vidio{
-  li{
-    a{
+.center-media-vidio {
+  li {
+    a {
       position: relative;
       &:before {
         content: "\e618";
@@ -1219,23 +1224,26 @@ a.ui-media-box {
 
 }
 
-.center-mark{
+.center-mark {
 
 }
-.mark-wrap{
+
+.mark-wrap {
   padding: $space-normal;
 }
-.mark-header{
+
+.mark-header {
   font-size: .42rem;
   color: $color-success;
   font-weight: bold;
   margin-bottom: $space-xs;
 }
-.local-box{
+
+.local-box {
   position: relative;
   padding-left: .5rem;
-  dt{
-    i{
+  dt {
+    i {
       position: absolute;
       left: 0;
       top: -.04rem;
@@ -1243,41 +1251,41 @@ a.ui-media-box {
     }
     font-size: $fz-normal;
   }
-  dd{
+  dd {
     color: $color-light;
   }
 }
 
-.mark-panel{
+.mark-panel {
   margin-left: $space-sm;
-  padding:$space-xs 0 $space-normal $space-normal;
-  border-left:1px solid #e0e0e0;
-  .mark-panel-header{
+  padding: $space-xs 0 $space-normal $space-normal;
+  border-left: 1px solid #e0e0e0;
+  .mark-panel-header {
     position: relative;
     font-size: $fz-sm;
-    &:before{
+    &:before {
       content: "";
       position: absolute;
       width: .14rem;
       height: .14rem;
       line-height: .14rem;
-      left:-.39rem;
+      left: -.39rem;
       top: .1rem;
       background-color: $color-success;
       @include x-border-radius(50%);
     }
-    .pull-right{
+    .pull-right {
       color: $color-normal;
-      i{
+      i {
         font-size: $fz-sm;
       }
     }
   }
 }
 
-.postcard-container{
+.postcard-container {
   height: 100%;
-  .postcard-bg{
+  .postcard-bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -1292,21 +1300,21 @@ a.ui-media-box {
   }
 }
 
-.postcard-bg-a{
+.postcard-bg-a {
   position: absolute;
   left: 50%;
-  margin-left:-3.03rem;
+  margin-left: -3.03rem;
   bottom: 1.15rem;
   width: 6.06rem;
   height: 4.31rem;
   background: url(../images/postcard-bg-a.png) center top no-repeat;
   @include x-background-size(contain);
 }
-.postcard-bg-b{
+
+.postcard-bg-b {
   position: absolute;
   left: 50%;
-  margin-left:-2.47rem;
-  top: .7rem;
+  margin-left: -2.47rem;
   bottom: .4rem;
   width: 4.94rem;
   min-height: 8.4rem;
@@ -1315,28 +1323,28 @@ a.ui-media-box {
   @include x-border-radius(.06rem);
   @include x-box-shadow(0 0 10px rgba(51, 51, 51, 0.48));
   overflow: hidden;
-  .postcard-inner{
-    padding:1.05rem $space-sm $space-sm;
+  .postcard-inner {
+    padding: 1.05rem $space-sm $space-sm;
   }
 }
 
-.postcard-bg-c{
+.postcard-bg-c {
   text-align: center;
   position: absolute;
   left: 50%;
-  margin-left:-3.03rem;
+  margin-left: -3.03rem;
   bottom: 0;
   width: 6.06rem;
   height: 3.03rem;
   padding-top: 1.8rem;
   background: url(../images/postcard-bg-c.png) center bottom no-repeat;
   @include x-background-size(contain);
-  .btn{
+  .btn {
     padding: .15rem 0.5rem;
   }
 }
 
-.post-date{
+.post-date {
   position: absolute;
   right: .25rem;
   top: .55rem;
@@ -1344,90 +1352,152 @@ a.ui-media-box {
   font-size: $fz-xs;
 }
 
-.postcard-header{
+.postcard-header {
   @include flexbox();
-  dt{
+  dt {
     padding-right: $space-xs;
     color: $color-light;
   }
-  dd{
+  dd {
     @include flex(1);
     color: $color-darker;
   }
 }
 
-.postcard-body{
+.postcard-text {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  font-size: $fz-sm;
+  background-color: transparent;
+  @include x-placeholder($color-normal);
+  &:focus {
+    outline: 0;
+  }
+}
+
+.postcard-body {
+  -webkit-appearance: none;
   line-height: .46rem;
   height: 1.84rem;
   overflow: hidden;
   color: $color-light;
-  font-size: $fz-xs;
+  font-size: $fz-sm;
   white-space: normal;
   word-break: break-all;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  resize: none;
+  &:focus {
+    outline: 0;
+  }
 }
 
-.postcard-footer{
+.postcard-footer {
   padding: $space-xs 0;
   @include flexbox();
-  dt{
+  dt {
     @include flex(1);
     padding-right: $space-xs;
     color: $color-light;
     text-align: right;
   }
-  dd{
+  dd {
     min-width: .9rem;
     color: $color-darker;
   }
 }
 
+.postcard-img {
+  max-height: 4.48rem;
+  overflow: hidden;
+}
 
-.edit-btn-wrap{
+.edit-btn-wrap {
   text-align: center;
   margin-top: .5rem;
-  .btn{
+  .btn {
     min-width: 1.8rem;
   }
 }
 
-.pswp__button--postcard{
-  background: none!important;
-  i{
+.pswp__button--postcard {
+  background: none !important;
+  i {
     color: #fff;
     font-size: .38rem;
   }
 }
 
-.postcard-list{
+.postcard-list {
   background-color: #ffffff;
   .weui_media_box.weui_media_appmsg {
     @include box-align(flex-start);
-    .weui_media_hd{
+    .weui_media_hd {
       width: .9rem;
       height: .9rem;
       background: center no-repeat;
       @include x-background-size(cover);
     }
-    .weui_media_title{
+    .weui_media_title {
       font-size: $fz-sm;
       color: $color-light;
       margin-bottom: $space-xs;
-      small{
+      small {
         font-size: $fz-xs;
       }
     }
-    .weui_media_desc{
+    .weui_media_desc {
       font-size: $fz-normal;
       color: $color-normal;
     }
   }
 }
 
-
-.pswp img{
-  max-width: inherit;
+.pswp img {
+  max-width: 100%;
 }
-.pswp__zoom-wrap{
+
+.pswp__zoom-wrap {
   @include flexbox();
   @include box-align(center);
 }
+
+.map-wrap {
+  position: relative;
+  height: 100%;
+  background: url(../images/map-wrap.jpg) center no-repeat;
+  @include x-background-size(cover);
+  .an-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2.7rem;
+    margin-left: -1.83rem;
+    padding-top: .25rem;
+    width: 1.44rem;
+    height: 1.44rem;
+    background-color: $color-success;
+    @include x-border-radius(.72rem);
+    text-align: center;
+    color: #ffffff;
+    font-size: $fz-sm;
+    line-height: 1.3;
+    @include x-box-shadow((0 0 0px 7px rgba(48, 199, 147, 0.37), 0 0 0px 15px rgba(48, 199, 147, 0.1)));
+    @include x-animation(playing 2s ease-out infinite);
+    i {
+      font-size: .4rem;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
