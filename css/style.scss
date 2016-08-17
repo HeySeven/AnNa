@@ -1,7 +1,9 @@
 @import "common";
+
 .icon-bofang:before {
   content: "\e623";
 }
+
 .fix-btn-box {
   position: fixed;
   bottom: 0;
@@ -1427,7 +1429,7 @@ a.ui-media-box {
 
 .pswp__button--postcard {
   background: none !important;
-  width: auto!important;
+  width: auto !important;
   color: #ffffff;
   i {
     vertical-align: middle;
@@ -1502,7 +1504,7 @@ a.ui-media-box {
   }
 }
 
-.video-img-box{
+.video-img-box {
   height: 2rem;
   margin-bottom: .54rem;
   background-color: #535353;
@@ -1510,7 +1512,15 @@ a.ui-media-box {
   @include x-background-size(cover);
 }
 
-
+.mark-body {
+  .ui-media-img {
+    li {
+      width: 1.68rem;
+      height: 1.68rem;
+      line-height: 1.68rem;
+    }
+  }
+}
 
 
 
