@@ -1427,9 +1427,13 @@ a.ui-media-box {
 
 .pswp__button--postcard {
   background: none !important;
+  width: auto!important;
+  color: #ffffff;
   i {
+    vertical-align: middle;
     color: #fff;
     font-size: .52rem;
+    margin-right: 4px;
   }
 }
 
