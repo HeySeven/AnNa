@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>制作明信片页-安娜别墅</title>
+    <link rel="stylesheet" href="weui/weui.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1472134109_2988653.css">
+    <link rel="stylesheet" href="plugins/Swiper/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="plugins/PhotoSwipe/photoswipe.css">
+    <link rel="stylesheet" href="plugins/PhotoSwipe/default-skin/default-skin.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="plugins/adaptive-version2.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="plugins/fastclick.min.js"></script>
+    <script src="weui/weui.js"></script>
+    <!--plugins-->
+    <script src="plugins/Swiper/swiper-3.3.1.jquery.min.js"></script>
+    <script src="plugins/PhotoSwipe/photoswipe.min.js"></script>
+    <script src="plugins/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+    <!--plugins end-->
+
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="postcard-container">
+    <div class="postcard-bg" style="background-image: url(images/postcard.jpg);"></div>
+    <div class="postcard-bg-a"></div>
+    <div class="postcard-bg-b">
+        <span class="post-date">2016.08.05</span>
+        <div class="postcard-inner">
+            <dl class="postcard-header">
+                <dt>TO:</dt>
+                <dd><input class="postcard-text" type="text" placeholder="Cindy"></dd>
+            </dl>
+            <textarea class="postcard-body" placeholder="To my dear friend ..."></textarea>
+            <dl class="postcard-footer">
+                <dt>by:</dt>
+                <dd contenteditable="true">Tome</dd>
+            </dl>
+            <div class="ui-media-video">
+                <div class="media-video-link" style="background-image: url(images/nature1.jpg)">
+                    <video width="100%" height="100%" preload="auto" controls="controls">
+                        <source src="images/mov_bbb.mp4">
+                        您的浏览器不支持此种视频格式。
+                    </video>
+                    <a class="media-video-btn iconfont icon-bofang" data-toggle="media-video-btn"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="postcard-bg-c">
+        <button type="button" class="btn btn-success">邮递</button>
+    </div>
+</div>
+</body>
+</html>

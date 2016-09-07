@@ -520,7 +520,7 @@
   border: 1px solid $color-border;
   line-height: .44rem;
   & + .media-btn {
-    margin-left: $space-xs;
+    margin-left: 0.02rem;
   }
   &:hover, &:active {
     background-color: #e5e5e5;
@@ -1340,6 +1340,15 @@ a.ui-media-box {
   overflow: hidden;
   .postcard-inner {
     padding: 1.05rem $space-sm $space-sm;
+    .ui-audio-bar{
+      width:auto;
+    }
+    .ui-media-video {
+      .media-video-link{
+        width: 4.54rem;
+        height: 2.42rem;
+      }
+    }
   }
 }
 
