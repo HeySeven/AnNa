@@ -1640,3 +1640,21 @@ a.ui-media-box {
   background:  url(../images/share-bg.png) right $space-normal no-repeat rgba(0,0,0,0.7);
   @include x-background-size(3.62rem);
 }
+
+.hd-link{
+  color: $color-darker;
+  font-size: $fz-sm;
+  margin-left: $space-normal;
+  span{
+    padding: 0 $space-xs;
+    vertical-align: middle;
+    font-size: $fz-xs;
+    color: $color-lighter;
+    }
+  a{
+    color: $color-normal;
+    &:active{
+      color: $color-success;
+    }
+  }
+}
