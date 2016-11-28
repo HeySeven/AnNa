@@ -1,7 +1,7 @@
 @import "common";
 
 .icon-bofang:before {
-  content: "\e623"!important;
+  content: "\e623" !important;
 }
 
 .fix-btn-box {
@@ -1202,7 +1202,8 @@ a.ui-media-box {
     }
   }
 }
-.bot-dis{
+
+.bot-dis {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1340,11 +1341,11 @@ a.ui-media-box {
   overflow: hidden;
   .postcard-inner {
     padding: 1.05rem $space-sm $space-sm;
-    .ui-audio-bar{
-      width:auto;
+    .ui-audio-bar {
+      width: auto;
     }
     .ui-media-video {
-      .media-video-link{
+      .media-video-link {
         width: 4.54rem;
         height: 2.42rem;
       }
@@ -1505,8 +1506,8 @@ a.ui-media-box {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -2.7rem;
-    margin-left: -1.83rem;
+    margin-top: -1.4rem;
+    margin-left: -2.2rem;
     padding-top: .25rem;
     width: 1.44rem;
     height: 1.44rem;
@@ -1522,6 +1523,39 @@ a.ui-media-box {
       font-size: .4rem;
     }
   }
+
+  .map-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: .54rem;
+    height: .54rem;
+  }
+  .map-link-1 {
+    margin-top: -4rem;
+    margin-left: -2.64rem;
+  }
+  .map-link-2 {
+    margin-left: -2.6rem;
+    margin-top: -2.4rem;
+  }
+  .map-link-3 {
+    margin-left: -1.5rem;
+    margin-top: .96rem;
+  }
+  .map-link-4 {
+    margin-left: 2.08rem;
+    margin-top: 1.06rem;
+  }
+  .map-link-5 {
+    margin-left: -.48rem;
+    margin-top: 2.3rem;
+  }
+  .map-link-6 {
+    margin-left: -1.82rem;
+    margin-top: 4.18rem;
+  }
+
 }
 
 .video-img-box {
@@ -1542,14 +1576,13 @@ a.ui-media-box {
   }
 }
 
-.no-msg{
-  padding:$space-larger $space-sm;
+.no-msg {
+  padding: $space-larger $space-sm;
   text-align: center;
 }
 
-
-.media-page-wrap{
-  font-family:"Microsoft YaHei";
+.media-page-wrap {
+  font-family: "Microsoft YaHei";
   margin: 0 auto;
   max-width: inherit;
   width: 1080px;
@@ -1558,45 +1591,50 @@ a.ui-media-box {
   background: #fff url(../images/media-page-bg.jpg) 0 0 no-repeat;
   padding: 0 57px;
 }
-.page-a-header{
+
+.page-a-header {
   height: 177px;
   padding-top: 85px;
   padding-left: 50px;
   color: #ffffff;
   font-size: 48px;
 }
-.page-a-body{
+
+.page-a-body {
   height: 830px;
   padding: 60px 50px 100px;
 }
-.page-b-header{
+
+.page-b-header {
   height: 160px;
   padding-top: 58px;
   padding-left: 40px;
   color: #ffffff;
   font-size: 38px;
   line-height: 80px;
-  strong{
-    margin:-20px 5px 0;
+  strong {
+    margin: -20px 5px 0;
     display: inline-block;
     line-height: 1;
     font-size: 60px;
     vertical-align: middle;
   }
 }
-.media-page-b{
+
+.media-page-b {
   position: relative;
 }
-.step-list{
+
+.step-list {
   padding-left: 20px;
-  li{
+  li {
     height: 105px;
-    img{
+    img {
       width: 75px;
       height: 75px;
       @include x-border-radius(50%);
     }
-    .name{
+    .name {
       display: inline-block;
       padding-left: 30px;
       padding-right: 15px;
@@ -1606,23 +1644,24 @@ a.ui-media-box {
       @include x-text-overflow(ellipsis);
       vertical-align: middle;
     }
-    .step-status{
+    .step-status {
       font-size: 27px;
       color: #3a60d2;
       vertical-align: middle;
     }
   }
 }
-.ewm-box{
+
+.ewm-box {
   position: absolute;
   right: 20px;
   bottom: 210px;
   background-color: #ffffff;
   padding: 25px;
   @include x-border-radius(5px);
-  dl{
+  dl {
     text-align: center;
-    dd{
+    dd {
       line-height: 50px;
       font-size: 30px;
       color: #3a60d2;
@@ -1630,30 +1669,30 @@ a.ui-media-box {
   }
 }
 
-.share-wrap{
+.share-wrap {
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
-  left:0;
+  left: 0;
   z-index: 100;
-  background:  url(../images/share-bg.png) right $space-normal no-repeat rgba(0,0,0,0.7);
+  background: url(../images/share-bg.png) right $space-normal no-repeat rgba(0, 0, 0, 0.7);
   @include x-background-size(3.62rem);
 }
 
-.hd-link{
+.hd-link {
   color: $color-darker;
   font-size: $fz-sm;
   margin-left: $space-normal;
-  span{
+  span {
     padding: 0 $space-xs;
     vertical-align: middle;
     font-size: $fz-xs;
     color: $color-lighter;
-    }
-  a{
+  }
+  a {
     color: $color-normal;
-    &:active{
+    &:active {
       color: $color-success;
     }
   }
