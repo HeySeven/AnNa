@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Map-安娜别墅</title>
+    <link rel="stylesheet" href="weui/weui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_qczdfs5phrkq33di.css">
+    <script src="plugins/adaptive-version2.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="plugins/fastclick.min.js"></script>
+    <script src="weui/weui.js"></script>
+    <!--plugins-->
+    <script src="plugins/Swiper/swiper-3.3.1.jquery.min.js"></script>
+
+    <!--plugins end-->
+    <script src="js/main.js"></script>
+</head>
+<body>
+<!--   定义地图显示容器   -->
+<div class="loading-wrap" id="container"></div>
+<div id="map-model" class="map-model-wrap">
+    <a id="model-closed" href="###" class="model-closed iconfont icon-closed"></a>
+    <h2>安娜别墅</h2>
+    <p>距您13.8公里</p>
+    <div class="map-btn-wrap">
+        <a href="###" class="btn btn-success">点击进入</a>
+    </div>
+    <div class="map-local">
+        <span>青岛市市南区浙江路26号（曲阜路与浙江路交叉口西南角）</span>
+        <a href="###" class="navigation-link">
+            <i class="iconfont icon-daohang"></i>
+        </a>
+    </div>
+</div>
+<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp"></script>
+<script>
+    window.onload = function () {
+//直接加载地图
+        //初始化地图函数  自定义函数名init
+        function init() {
+            //定义map变量 调用 qq.maps.Map() 构造函数   获取地图显示容器
+            var map = new qq.maps.Map(document.getElementById("container"), {
+                center: new qq.maps.LatLng(39.916527, 116.397128),      // 地图的中心地理坐标。
+                zoom: 13                                                 // 地图的中心地理坐标。
+            });
+        }
+
+        //调用初始化函数地图
+        init();
+
+        //map-model
+        var $mapMmodel = $('#map-model');
+        var $modelClosed = $('#model-closed');
+        var mapModel = {
+            open: function () {
+                $mapMmodel.addClass('open');
+            },
+            close: function () {
+                $mapMmodel.removeClass('open');
+            }
+        }
+
+        //mapModel.open();
+        $modelClosed.click(function(){
+            mapModel.close();
+        });
+
+    }
+</script>
+</body>
+</html>
