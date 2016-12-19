@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcfc3b6-241d-4d0c-ab2f-1bebbf509db9" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loading-map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio-detail.html" afterPath="$PROJECT_DIR$/audio-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio-list.html" afterPath="$PROJECT_DIR$/audio-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio-publish.html" afterPath="$PROJECT_DIR$/audio-publish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-audio-postcard.html" afterPath="$PROJECT_DIR$/create-audio-postcard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-postcard.html" afterPath="$PROJECT_DIR$/create-postcard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-video-postcard.html" afterPath="$PROJECT_DIR$/create-video-postcard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit-info.html" afterPath="$PROJECT_DIR$/edit-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-detail.html" afterPath="$PROJECT_DIR$/img-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-list-b.html" afterPath="$PROJECT_DIR$/img-list-b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-list.html" afterPath="$PROJECT_DIR$/img-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-publish.html" afterPath="$PROJECT_DIR$/img-publish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loading.html" afterPath="$PROJECT_DIR$/loading.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media-page.html" afterPath="$PROJECT_DIR$/media-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-center.html" afterPath="$PROJECT_DIR$/my-center.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-comment.html" afterPath="$PROJECT_DIR$/my-comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-detail.html" afterPath="$PROJECT_DIR$/page-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postcard-list.html" afterPath="$PROJECT_DIR$/postcard-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postcard.html" afterPath="$PROJECT_DIR$/postcard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-detail.html" afterPath="$PROJECT_DIR$/video-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-list.html" afterPath="$PROJECT_DIR$/video-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-publish.html" afterPath="$PROJECT_DIR$/video-publish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/your-center.html" afterPath="$PROJECT_DIR$/your-center.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loading-map.html" afterPath="$PROJECT_DIR$/loading-map.html" />
     </list>
     <ignored path="安娜别墅.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.037037">
-              <caret line="1719" column="38" selection-start-line="1719" selection-start-column="38" selection-end-line="1719" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.67280453">
+              <caret line="1718" column="36" selection-start-line="1718" selection-start-column="36" selection-end-line="1718" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loading.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loading.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loading.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.054570258">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.148149">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -73,8 +49,8 @@
       <file leaf-file-name="loading-map.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loading-map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.592592">
-              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+            <state vertical-scroll-proportion="-16.333334">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,8 +117,8 @@
         <option value="$PROJECT_DIR$/page-detail.html" />
         <option value="$PROJECT_DIR$/loading.html" />
         <option value="$PROJECT_DIR$/audio-detail.html" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/loading-map.html" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -207,6 +183,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="安娜别墅" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="安娜别墅" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -221,9 +211,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/plugins" />
-      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/plugins/Swiper" />
     </key>
   </component>
@@ -899,26 +889,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/loading.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.037037">
-          <caret line="1719" column="38" selection-start-line="1719" selection-start-column="38" selection-end-line="1719" selection-end-column="38" />
+        <state vertical-scroll-proportion="-13.148149">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loading-map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.592592">
-          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        <state vertical-scroll-proportion="-16.333334">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loading.html">
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.054570258">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.67280453">
+          <caret line="1718" column="36" selection-start-line="1718" selection-start-column="36" selection-end-line="1718" selection-end-column="36" />
           <folding />
         </state>
       </provider>
