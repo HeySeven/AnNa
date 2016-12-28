@@ -2,9 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcfc3b6-241d-4d0c-ab2f-1bebbf509db9" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/big-media/media-page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/big-media/article-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/big-media/audio-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/big-media/foot-print.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/big-media/img-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/big-media/video-page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio-detail.html" afterPath="$PROJECT_DIR$/audio-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio-list.html" afterPath="$PROJECT_DIR$/audio-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio-publish.html" afterPath="$PROJECT_DIR$/audio-publish.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/big-media/media-page.html" afterPath="$PROJECT_DIR$/big-media/media-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-audio-postcard.html" afterPath="$PROJECT_DIR$/create-audio-postcard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-postcard.html" afterPath="$PROJECT_DIR$/create-postcard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-video-postcard.html" afterPath="$PROJECT_DIR$/create-video-postcard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_xmixins.scss" afterPath="$PROJECT_DIR$/css/_xmixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css.map" afterPath="$PROJECT_DIR$/css/media.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.scss" afterPath="$PROJECT_DIR$/css/media.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit-info.html" afterPath="$PROJECT_DIR$/edit-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-detail.html" afterPath="$PROJECT_DIR$/img-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-list-b.html" afterPath="$PROJECT_DIR$/img-list-b.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-list.html" afterPath="$PROJECT_DIR$/img-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-publish.html" afterPath="$PROJECT_DIR$/img-publish.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loading-map.html" afterPath="$PROJECT_DIR$/loading-map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loading.html" afterPath="$PROJECT_DIR$/loading.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media-page.html" afterPath="$PROJECT_DIR$/media-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-center.html" afterPath="$PROJECT_DIR$/my-center.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-comment.html" afterPath="$PROJECT_DIR$/my-comment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-detail.html" afterPath="$PROJECT_DIR$/page-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postcard-list.html" afterPath="$PROJECT_DIR$/postcard-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postcard.html" afterPath="$PROJECT_DIR$/postcard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-detail.html" afterPath="$PROJECT_DIR$/video-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-list.html" afterPath="$PROJECT_DIR$/video-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-publish.html" afterPath="$PROJECT_DIR$/video-publish.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/your-center.html" afterPath="$PROJECT_DIR$/your-center.html" />
     </list>
     <ignored path="安娜别墅.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +60,8 @@
       <file leaf-file-name="media-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/big-media/media-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.037037">
-              <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+            <state vertical-scroll-proportion="-7.0">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -39,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="media-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media-page.html">
+      <file leaf-file-name="article-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/big-media/article-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9259257">
-              <caret line="151" column="12" selection-start-line="151" selection-start-column="12" selection-end-line="157" selection-end-column="18" />
+            <state vertical-scroll-proportion="-8.777778">
+              <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -52,8 +84,18 @@
       <file leaf-file-name="media.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/media.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.129108">
-              <caret line="202" column="10" selection-start-line="202" selection-start-column="10" selection-end-line="202" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.46458924">
+              <caret line="372" column="24" selection-start-line="372" selection-start-column="24" selection-end-line="372" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foot-print.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/big-media/foot-print.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.333333">
+              <caret line="145" column="50" selection-start-line="145" selection-start-column="50" selection-end-line="145" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -90,7 +132,6 @@
         <option value="$PROJECT_DIR$/css/_common.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/audio-publish.html" />
-        <option value="$PROJECT_DIR$/video-list.html" />
         <option value="$PROJECT_DIR$/img-detail.html" />
         <option value="$PROJECT_DIR$/edit-info.html" />
         <option value="$PROJECT_DIR$/my-center.html" />
@@ -105,11 +146,18 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/page-detail.html" />
         <option value="$PROJECT_DIR$/loading.html" />
-        <option value="$PROJECT_DIR$/audio-detail.html" />
         <option value="$PROJECT_DIR$/loading-map.html" />
         <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/media-page.html" />
+        <option value="$PROJECT_DIR$/audio-detail.html" />
+        <option value="$PROJECT_DIR$/css/_xmixins.scss" />
         <option value="$PROJECT_DIR$/big-media/media-page.html" />
+        <option value="$PROJECT_DIR$/big-media/audio-page.html" />
+        <option value="$PROJECT_DIR$/video-list.html" />
+        <option value="$PROJECT_DIR$/big-media/video-page.html" />
+        <option value="$PROJECT_DIR$/big-media/img-page.html" />
+        <option value="$PROJECT_DIR$/big-media/article-page.html" />
+        <option value="$PROJECT_DIR$/big-media/foot-print.html" />
         <option value="$PROJECT_DIR$/css/media.scss" />
       </list>
     </option>
@@ -155,8 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,6 +237,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="安娜别墅" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="安娜别墅" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="big-media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -203,31 +265,31 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/big-media" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/big-media" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/plugins" />
       <recent name="$PROJECT_DIR$/plugins/Swiper" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/big-media" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.media-page.html">
-    <configuration default="false" name="loading.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/loading.html">
+  <component name="RunManager" selected="JavaScript Debug.foot-print.html">
+    <configuration default="false" name="video-page.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/big-media/video-page.html">
       <method />
     </configuration>
-    <configuration default="false" name="loading.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/loading.html">
+    <configuration default="false" name="video-list.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/video-list.html">
       <method />
     </configuration>
-    <configuration default="false" name="loading-map.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/loading-map.html">
+    <configuration default="false" name="img-page.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/big-media/img-page.html">
       <method />
     </configuration>
-    <configuration default="false" name="media-page.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/big-media/media-page.html">
+    <configuration default="false" name="article-page.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/big-media/article-page.html">
       <method />
     </configuration>
-    <configuration default="false" name="media-page.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/big-media/media-page.html">
+    <configuration default="false" name="foot-print.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/big-media/foot-print.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -279,19 +341,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.loading.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.loading.html (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.loading-map.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.media-page.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.media-page.html (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.video-page.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.video-list.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.img-page.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.article-page.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.foot-print.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.media-page.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.media-page.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.loading-map.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.loading.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.loading.html (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.foot-print.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.article-page.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.img-page.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.video-list.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.video-page.html" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +547,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19222614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -493,9 +555,10 @@
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39008895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39008895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3202033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278272" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -506,7 +569,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278272" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -548,41 +610,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/_xmixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_xmixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_common.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -688,24 +715,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.2222223">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video-publish.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audio-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -765,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_xmixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028649386">
-          <caret line="289" column="14" selection-start-line="289" selection-start-column="9" selection-end-line="289" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weui/weui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028649386">
@@ -807,13 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/audio-publish.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -832,13 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="51" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.555555">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -865,14 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audio-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57298774">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.627558">
@@ -891,16 +875,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/media-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9259257">
-          <caret line="151" column="12" selection-start-line="151" selection-start-column="12" selection-end-line="157" selection-end-column="18" />
+        <state vertical-scroll-proportion="-3.1111112">
+          <caret line="153" column="17" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22919509">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7777777">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_xmixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9405941">
+          <caret line="762" column="1" selection-start-line="762" selection-start-column="1" selection-end-line="762" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4444447">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big-media/audio-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.037037">
+          <caret line="308" column="56" selection-start-line="308" selection-start-column="24" selection-end-line="308" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big-media/video-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.592592">
+          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#4;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big-media/img-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7777777">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.2222223">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="102" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big-media/article-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.777778">
+          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/big-media/media-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.037037">
-          <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+        <state vertical-scroll-proportion="-7.0">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -909,10 +985,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/big-media/foot-print.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.333333">
+          <caret line="145" column="50" selection-start-line="145" selection-start-column="50" selection-end-line="145" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/media.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.129108">
-          <caret line="202" column="10" selection-start-line="202" selection-start-column="10" selection-end-line="202" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.46458924">
+          <caret line="372" column="24" selection-start-line="372" selection-start-column="24" selection-end-line="372" selection-end-column="24" />
           <folding />
         </state>
       </provider>

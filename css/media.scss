@@ -6,8 +6,15 @@ html, body {
   max-width: inherit;
   width: 1080px;
   height: 1920px;
+  background-color: #eee;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
   font-size: 36px;
-  background-color: #ffffff;
 }
 
 .pd-h {
@@ -31,6 +38,7 @@ html, body {
   @include x-box-shadow(0 10px 32px rgba(113, 159, 143, 0.4));
   @include x-clearfix();
   .md-nav-l {
+    position: absolute;
     float: left;
   }
   .md-nav-c {
@@ -156,8 +164,14 @@ html, body {
 
 .md-index-footprint {
   position: relative;
-  min-height:570px;
+  min-height: 570px;
   padding-top: 36px;
+  &.md-audio-foot{
+    min-height: inherit;
+    .ewm-box{
+      top: -30px;
+    }
+  }
   .md-step-tit {
     margin-bottom: 20px;
     font-size: 40px;
@@ -169,23 +183,24 @@ html, body {
       color: $color-success;
     }
   }
-  .md-step-body{
+  .md-step-body {
     position: relative;
   }
-  .step-list{
-    li{
+  .step-list {
+    li {
       height: 90px;
       font-size: 28px;
-      img{
+      img {
+        margin-right: 10px;
         width: 60px;
         height: 60px;
       }
-      .name{
+      .name {
         width: auto;
         padding: 0;
         color: #333333;
       }
-      .step-status{
+      .step-status {
         color: #333333;
         display: inline-block;
         max-width: 290px;
@@ -193,22 +208,194 @@ html, body {
         text-overflow: ellipsis;
         white-space: nowrap;
       }
-      .step-time{
+      .step-time {
         color: #939393;
       }
     }
   }
-  .ewm-box{
+  .ewm-box {
     @include x-box-shadow(0 0 20px rgba(51, 51, 51, 0.3));
     top: 80px;
     right: 60px;
-    bottom:auto;
+    bottom: auto;
+    dl{
+      dd{
+        color: #333333;
+      }
+    }
+  }
+}
+
+.md-nav-normal {
+  text-align: center;
+}
+
+.md-nav-link {
+  display: inline-block;
+  color: #333333;
+  font-size: 36px;
+  i {
+    font-size: 64px;
+    vertical-align: middle;
+  }
+}
+
+.md-audio-a {
+  height: 1524px;
+  background-color: #ffffff;
+  overflow: auto;
+  .ui-media {
+    padding: 20px 0 39px;
+    @include flexbox();
+    @include flex-wrap(wrap);
+    @include justify-content(space-between);
+    &.ui-media-imgs{
+      .ui-media-video{
+        .media-video-link{
+          &:before{
+            display: none;
+          }
+        }
+      }
+    }
+    .ui-media-box {
+      &:before{
+        display: none;
+      }
+      width: 450px;
+      padding: 20px 0 0;
+    }
+    .ui-media-video{
+      .media-video-link{
+        width: 100%;
+        height: 240px;
+      }
+    }
+    .ui-media-title{
+      line-height: 58px;
+      a.ui-author-sm{
+        img{
+          width: 56px;
+          height: 56px;
+        }
+      }
+    }
+    .ui-audio-bar{
+      width: 100%;
+    }
+    .ui-media-desc {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      a {
+        font-size: 32px;
+      }
+    }
+    .ui-media-control {
+      padding: 0;
+      font-size: 22px;
+    }
+  }
+}
+
+.md-article-body{
+  padding: 40px 0;
+  font-size: 36px;
+  line-height: 80px;
+  h1{
+    font-size: 46px;
+    margin-bottom: 40px;
+  }
+  p{
+    text-indent: 2em;
+    font-size: 36px;
+  }
+}
+
+.md-right-control{
+  top: 200px;
+  .catalogue-btn{
+    width: auto;
+    padding: 0 60px 0 20px;
+    font-size: 38px;
+    i{
+      font-size: 40px;
+    }
   }
 }
 
 
+.md-drop{
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-filter: blur(10px); /* Chrome, Opera */
+  -moz-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+.md-bar{
+  background-color: #2e2e2e;
+  .catalogue-hd{
+    margin-top: 80px;
+    margin-left: 40px;
+    background-color: $color-success;
+    color: #ffffff;
+    font-size: 38px;
+    padding: 10px 20px;
+    i{
+      font-size: 40px;
+    }
+  }
+  .catalogue-list{
+    list-style: decimal;
+    padding: 0 20px 0 100px;
+    li{
+      &:first-child{
+        text-shadow: 0 0 40px rgb(48, 199, 147);
+        color: #fff;
+        a{
+          text-shadow: 0 0 40px rgb(48, 199, 147);
+          color: #fff;
+        }
+      }
+      a{
+        font-size: 40px;
+        color: #7a7a7a;
+      }
+    }
+  }
+}
 
-
-
-
+.md-footer-print{
+  padding-top: 190px;
+  .md-step-tit{
+    text-align: right;
+    font-size: 38px;
+    margin-bottom: 30px;
+    strong{
+      font-weight: bold;
+      font-size: 38px;
+    }
+  }
+  .step-list {
+    width: 100%;
+    li{
+      height: 100px;
+      .step-status{
+        max-width: 640px;
+      }
+      .step-time{
+        float: right;
+      }
+    }
+  }
+  &.md-audio-foot {
+    .ewm-box{
+      top: auto;
+      bottom: -382px;
+      right: auto;
+      left: 50%;
+      margin-left: -145px;
+    }
+  }
+}
 
