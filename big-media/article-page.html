@@ -121,7 +121,7 @@
             <i class="iconfont icon-deji"></i>
             目录</div>
         <ol class="catalogue-list">
-            <li><a href="#">青岛书房的前世今生</a></li>
+            <li class="active"><a href="#">青岛书房的前世今生</a></li>
             <li><a href="#">青岛书房</a></li>
             <li><a href="#">青岛书房</a></li>
             <li><a href="#">青岛书房</a></li>
@@ -152,6 +152,9 @@
             }
             $("body").on("click", '[data-toggle="slid-btn"],.model-drop,.catalogue-list li a', function() {
                 toggleSlid();
+            });
+            $('.catalogue-list li').click(function(){
+                $(this).addClass('active').siblings('li').removeClass('active');
             });
         });
     </script>

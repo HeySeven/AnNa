@@ -175,6 +175,9 @@ body {
   .md-step-tit {
     margin-bottom: 20px;
     font-size: 40px;
+    a{
+      color: $color-normal;
+    }
     strong {
       font-size: 60px;
       font-style: italic;
@@ -313,7 +316,7 @@ body {
 }
 
 .md-right-control{
-  top: 200px;
+  top: 500px;
   .catalogue-btn{
     width: auto;
     padding: 0 60px 0 20px;
@@ -333,7 +336,7 @@ body {
   filter: blur(10px);
 }
 .md-bar{
-  background-color: #2e2e2e;
+  background-color: #9b9b9b;
   .catalogue-hd{
     margin-top: 80px;
     margin-left: 40px;
@@ -349,7 +352,7 @@ body {
     list-style: decimal;
     padding: 0 20px 0 100px;
     li{
-      &:first-child{
+      &.active{
         text-shadow: 0 0 40px rgb(48, 199, 147);
         color: #fff;
         a{
@@ -359,7 +362,7 @@ body {
       }
       a{
         font-size: 40px;
-        color: #7a7a7a;
+        color: #4b4b4b;
       }
     }
   }
@@ -371,6 +374,9 @@ body {
     text-align: right;
     font-size: 38px;
     margin-bottom: 30px;
+    a{
+      color: $color-normal;
+    }
     strong{
       font-weight: bold;
       font-size: 38px;
