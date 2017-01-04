@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>活动详情</title>
+    <link rel="stylesheet" href="weui/weui.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_5qrdbkofkk3dte29.css">
+    <link rel="stylesheet" href="plugins/Swiper/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="plugins/PhotoSwipe/photoswipe.css">
+    <link rel="stylesheet" href="plugins/PhotoSwipe/default-skin/default-skin.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="plugins/adaptive-version2.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="plugins/fastclick.min.js"></script>
+    <script src="weui/weui.js"></script>
+    <!--plugins-->
+    <script src="plugins/Swiper/swiper-3.3.1.jquery.min.js"></script>
+    <script src="plugins/PhotoSwipe/photoswipe.min.js"></script>
+    <script src="plugins/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+    <!--plugins end-->
+
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/activity-img.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/activity-img.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="activity-detail-wrap">
+        <div class="activity-a">
+            <h1>只为在这里与你相遇</h1>
+            <p>183人收藏 / 1256人参与</p>
+        </div>
+        <div class="activity-b">
+            <ul>
+                <li>
+                    <span>2016年12月23日-2016年12月30日</span>
+                    <i class="iconfont icon-ico-time"></i>
+                </li>
+                <li>
+                    <span>安娜别墅 市南区  浙江路26号天主教堂对面</span>
+                    <i class="iconfont icon-ico-location"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="activity-c">
+            <div class="act-panel">
+                <div class="act-panel-header">他们感兴趣</div>
+                <div class="act-panel-body">
+                    <ul class="activity-user-list">
+                        <li><img src="images/author.jpg" alt=""></li>
+                        <li><img src="images/author.jpg" alt=""></li>
+                        <li><img src="images/author.jpg" alt=""></li>
+                        <li><img src="images/author.jpg" alt=""></li>
+                        <li><img src="images/author.jpg" alt=""></li>
+                        <li><img src="images/author.jpg" alt=""></li>
+                        <li><img src="images/author.jpg" alt=""></li>
+                        <li><img src="images/author.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="fix-btn-box ui-border-t">
+    <ul>
+        <li class="active">
+            <a href="index.html">
+                <i class="normal-icon iconfont icon-iconhome"></i>
+                <i class="change-icon iconfont icon-iconhomec"></i>
+                首页</a>
+        </li>
+        <li>
+            <a href="page-detail.html">
+                <i class="normal-icon iconfont icon-iconhistory"></i>
+                <i class="change-icon iconfont icon-iconhistoryc"></i>
+                历史</a>
+        </li>
+        <li class="center-icon">
+            <a href="###">
+                <i class="normal-icon iconfont icon-ditu1"></i>
+            </a>
+        </li>
+        <li>
+            <a href="img-publish.html">
+                <i class="normal-icon iconfont icon-iconcamera"></i>
+                <i class="change-icon iconfont icon-iconcamerac"></i>
+                分享</a>
+        </li>
+        <li>
+            <a href="my-center.html">
+                <i class="normal-icon iconfont icon-iconmy"></i>
+                <i class="change-icon iconfont icon-iconmyc"></i>
+                我的</a>
+        </li>
+    </ul>
+</div>
+<script>
+    var $swiperContainer = $(".swiper-container");
+    if ($swiperContainer.length > 0) {
+        $swiperContainer.swiper({
+            loop: true,
+            pagination: '.swiper-pagination',
+            autoplay: 5000
+        });
+    }
+</script>
+</body>
+</html>
