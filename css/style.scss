@@ -66,7 +66,7 @@
         a {
           i {
             color: $color-success;
-            font-size: .6rem;
+            font-size: .65rem;
           }
         }
       }
@@ -1910,10 +1910,174 @@ a.ui-media-box {
   width: 100%;
 }
 
-.activity-detail-wrap{
+.activity-detail-wrap {
+  padding: 0 $space-normal;
   background-color: #ffffff;
 }
 
+.activity-a {
+  text-align: center;
+  padding: $space-normal 0;
+  h1 {
+    font-size: $fz-big;
+    margin-bottom: .05rem;
+  }
+  p {
+    font-size: $fz-xs;
+    color: $color-lighter;
+  }
+}
 
+.activity-b {
+  ul {
+    padding: .2rem 0;
+    li {
+      @include flexbox();
+      @include align-items(center);
+      line-height: 1.2;
+      span {
+        @include flex(1);
+        font-size: $fz-sm;
+      }
+      & > a, & > i {
+        color: $color-success;
+      }
+      i {
+        font-size: .46rem;
+      }
+    }
+  }
+}
 
+.activity-c {
 
+}
+
+.act-panel {
+  .act-panel-header {
+    padding: $space-normal 0;
+    text-align: center;
+    font-size: $fz-big;
+    font-weight: bold;
+    svg {
+
+    }
+  }
+  .act-panel-body {
+    padding-bottom: $space-normal;
+  }
+}
+
+.activity-user-list {
+  list-style: none;
+  @include flexbox();
+  @include flex-wrap(wrap);
+  li {
+    margin: .08rem;
+    width: .56rem;
+    height: .56rem;
+    line-height: .56rem;
+    img {
+      @include x-border-radius(.28rem);
+    }
+  }
+}
+
+.activity-badge-list {
+  list-style: none;
+  @include x-clearfix();
+  text-align: center;
+  li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: .2rem;
+    width: 1.16rem;
+    height: 1.16rem;
+    line-height: 1.16rem;
+    @include x-background-size(.68rem);
+    background-repeat: no-repeat;
+    background-position: center;
+    @include x-border-radius(50%);
+    overflow: hidden;
+    span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(41, 41, 41, 0.81);
+      color: #9e9e9e;
+      font-size: $fz-xs;
+    }
+    &.have {
+      span {
+        background-color: rgba(27, 181, 128, 0.81);
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.activity-step-wrap {
+  padding: $space-sm;
+  text-align: center;
+  .btn {
+    padding: 0.15rem 0.3rem;
+    @include x-border-radius(2px);
+  }
+}
+
+.act-body {
+  line-height: .58rem;
+  color: #565a5c;
+}
+
+.prize-btn {
+  display: block;
+  height: .84rem;
+  line-height: .84rem;
+  text-align: center;
+  font-size: $fz-normal;
+  color: #ffffff;
+  background-color: $color-success;
+  &:active {
+    background-color: darken($color-success, 5);
+  }
+}
+
+.act-fix-group {
+  @include flexbox();
+  @include align-items(center);
+  li {
+    height: .84rem;
+  }
+  .flex-sm {
+    width: 1.5rem;
+    @include flex(inherit);
+    a {
+      span {
+        font-size: $fz-xs;
+      }
+      &.active {
+        color: $color-danger;
+      }
+    }
+  }
+  .flex-item {
+    @include flex(1);
+    a {
+      display: block;
+      padding: 0;
+      height: .84rem;
+      line-height: .84rem;
+      text-align: center;
+      font-size: $fz-normal;
+      color: #ffffff;
+      background-color: $color-success;
+      &:active {
+        background-color: darken($color-success, 5);
+      }
+    }
+  }
+}
