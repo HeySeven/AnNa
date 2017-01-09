@@ -2044,13 +2044,13 @@ a.ui-media-box {
   &:active {
     background-color: darken($color-success, 5);
   }
-  &.btn-get{
+  &.btn-get {
     background-color: #3c3c3c;
     &:active {
       background-color: darken(#3c3c3c, 5);
     }
   }
-  &.btn-over{
+  &.btn-over {
     background-color: #d3d3d3;
     &:active {
       background-color: darken(#d3d3d3, 5);
@@ -2095,7 +2095,7 @@ a.ui-media-box {
   }
 }
 
-.process-wrap{
+.process-wrap {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -2106,3 +2106,157 @@ a.ui-media-box {
   z-index: 11;
   display: none;
 }
+
+.message-list-wrap {
+  background-color: #ffffff;
+  padding-left: $space-sm;
+  .message-list {
+    li {
+      padding: $space-sm 0 0;
+      @include flexbox();
+      @include align-items(flex-start);
+      .msg-hd {
+        width: .7rem;
+        height: .7rem;
+        margin-right: $space-sm;
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          @include x-border-radius(50%);
+        }
+      }
+      .msg-bd {
+        @include flex(1);
+        color: $color-normal;
+        padding-right: $space-sm;
+        padding-bottom: $space-sm;
+        h3 {
+          color: #565a5c;
+          font-size: $fz-sm;
+          span {
+            font-size: $fz-xs;
+            color: $color-lighter;
+            float: right;
+          }
+        }
+        p {
+          padding: $space-xs 0;
+          color: $color-normal;
+          font-size: $fz-sm;
+          line-height: 1.7;
+        }
+        .msg-img {
+          img {
+            width: 3.8rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.step-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1.06rem;
+  background-color: #ffffff;
+  & + .container {
+    padding-top: 1.06rem;
+  }
+  .step-form-list {
+    @include x-clearfix();
+    li {
+      float: left;
+      width: 33.3%;
+      height: 1.06rem;
+      line-height: normal;
+      padding: .23rem $space-sm;
+      &.active {
+        color: $color-success;
+        .step-hd {
+          background-color: $color-success;
+          color: #ffffff;
+        }
+      }
+      .step-hd {
+        margin-top: .1rem;
+        width: .4rem;
+        height: .4rem;
+        margin-right: $space-xs;
+        @include x-border-radius(50%);
+        background-color: #7d7d7d;
+        color: #ffffff;
+        text-align: center;
+        line-height: .4rem;
+        float: left;
+      }
+      .step-bd {
+        span {
+          display: block;
+          font-size: $fz-xs;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}
+
+.activity-form {
+  .weui_cells_form {
+    font-size: $fz-normal;
+    .weui_select{
+      height: auto;
+      line-height:normal;
+    }
+  }
+}
+
+.see-wrap{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 1.3rem;
+  text-align: center;
+  z-index: 11;
+  background-color: rgba(27, 27, 27, 0.6);
+  .see-inner{
+    display: inline-block;
+    width: 5rem;
+    height: 6.4rem;
+    @include x-border-radius(5px);
+    padding: 0 .5rem;
+    background: #fafafa url(../images/tips.png) center .7rem no-repeat;
+    @include x-background-size(3.23rem);
+    p{
+      padding-top: 4.4rem;
+      font-size: $fz-normal;
+      color: $color-normal;
+    }
+    .see-btn-wrap{
+      margin-top: .3rem;
+      .see-btn{
+        display: block;
+        background-color: $color-danger;
+        color: #ffffff;
+        height: .7rem;
+        line-height:.7rem;
+        font-size: $fz-normal;
+        @include x-border-radius(3px);
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

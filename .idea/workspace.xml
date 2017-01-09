@@ -2,39 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcfc3b6-241d-4d0c-ab2f-1bebbf509db9" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activity-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/activity-message.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/2001c7cda412a6e0d424f33255a6b3b1457781fb/style.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/2001c7cda412a6e0d424f33255a6b3b1457781fb/style.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activity-detail.html" afterPath="$PROJECT_DIR$/activity-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activity-list.html" afterPath="$PROJECT_DIR$/activity-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio-detail.html" afterPath="$PROJECT_DIR$/audio-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio-list.html" afterPath="$PROJECT_DIR$/audio-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audio-publish.html" afterPath="$PROJECT_DIR$/audio-publish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-audio-postcard.html" afterPath="$PROJECT_DIR$/create-audio-postcard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-postcard.html" afterPath="$PROJECT_DIR$/create-postcard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-video-postcard.html" afterPath="$PROJECT_DIR$/create-video-postcard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css.map" afterPath="$PROJECT_DIR$/css/media.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit-info.html" afterPath="$PROJECT_DIR$/edit-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-detail.html" afterPath="$PROJECT_DIR$/img-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-list-b.html" afterPath="$PROJECT_DIR$/img-list-b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-list.html" afterPath="$PROJECT_DIR$/img-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img-publish.html" afterPath="$PROJECT_DIR$/img-publish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loading-map.html" afterPath="$PROJECT_DIR$/loading-map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loading.html" afterPath="$PROJECT_DIR$/loading.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media-page.html" afterPath="$PROJECT_DIR$/media-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-center.html" afterPath="$PROJECT_DIR$/my-center.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-comment.html" afterPath="$PROJECT_DIR$/my-comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-detail.html" afterPath="$PROJECT_DIR$/page-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postcard-list.html" afterPath="$PROJECT_DIR$/postcard-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postcard.html" afterPath="$PROJECT_DIR$/postcard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-detail.html" afterPath="$PROJECT_DIR$/video-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-list.html" afterPath="$PROJECT_DIR$/video-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video-publish.html" afterPath="$PROJECT_DIR$/video-publish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/your-center.html" afterPath="$PROJECT_DIR$/your-center.html" />
     </list>
     <ignored path="安娜别墅.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +34,8 @@
       <file leaf-file-name="activity-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activity-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+            <state vertical-scroll-proportion="-8.555555">
+              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -70,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity-detail.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity-detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activity-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7708049">
-              <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.8148148">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -84,11 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity-message.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activity-message.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-25.592592">
+              <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.12963">
-              <caret line="2106" column="16" selection-start-line="2106" selection-start-column="16" selection-end-line="2106" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.7917847">
+              <caret line="2240" column="5" selection-start-line="2240" selection-start-column="5" selection-end-line="2240" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity-form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activity-form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.592592">
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,8 +151,10 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/_common.scss" />
         <option value="$PROJECT_DIR$/activity-list.html" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/activity-detail.html" />
+        <option value="$PROJECT_DIR$/activity-message.html" />
+        <option value="$PROJECT_DIR$/activity-form.html" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -265,6 +263,9 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/big-media" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/big-media" />
@@ -272,24 +273,21 @@
       <recent name="$PROJECT_DIR$/plugins" />
       <recent name="$PROJECT_DIR$/plugins/Swiper" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/big-media" />
-    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.activity-detail.html">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="activity-list.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/安娜别墅/activity-list.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.activity-form.html">
     <configuration default="false" name="activity-list.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/activity-list.html">
       <method />
     </configuration>
     <configuration default="false" name="activity-detail.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/activity-detail.html">
       <method />
     </configuration>
-    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/index.html">
+    <configuration default="false" name="activity-message.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/activity-message.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="edit-info.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/edit-info.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="activity-form.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/activity-form.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -341,19 +339,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.activity-list.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.activity-list.html (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.activity-detail.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.activity-list.html (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.activity-detail.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.activity-message.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.edit-info.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.activity-form.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.activity-detail.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.activity-list.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.activity-list.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.activity-form.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.edit-info.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.activity-message.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.activity-detail.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.activity-list.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -547,9 +545,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19222614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19222614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32528588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -610,33 +608,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/activity-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="28" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_common.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -683,20 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39671683">
           <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edit-info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="81" selection-start-line="40" selection-start-column="81" selection-end-line="40" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-comment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.555555">
-          <caret line="118" column="37" selection-start-line="118" selection-start-column="37" selection-end-line="118" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -957,8 +914,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activity-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        <state vertical-scroll-proportion="-8.555555">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -968,23 +925,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.12963">
-          <caret line="2106" column="16" selection-start-line="2106" selection-start-column="16" selection-end-line="2106" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activity-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7708049">
-          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.8148148">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity-message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.592592">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6357436">
+          <caret line="118" column="37" selection-start-line="118" selection-start-column="37" selection-end-line="118" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33289474">
+          <caret line="326" column="16" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7025921">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.592592">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7917847">
+          <caret line="2240" column="5" selection-start-line="2240" selection-start-column="5" selection-end-line="2240" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
