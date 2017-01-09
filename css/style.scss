@@ -2044,6 +2044,19 @@ a.ui-media-box {
   &:active {
     background-color: darken($color-success, 5);
   }
+  &.btn-get{
+    background-color: #3c3c3c;
+    &:active {
+      background-color: darken(#3c3c3c, 5);
+    }
+  }
+  &.btn-over{
+    background-color: #d3d3d3;
+    &:active {
+      background-color: darken(#d3d3d3, 5);
+    }
+  }
+
 }
 
 .act-fix-group {
@@ -2074,10 +2087,22 @@ a.ui-media-box {
       text-align: center;
       font-size: $fz-normal;
       color: #ffffff;
-      background-color: $color-success;
+      background-color: $color-danger;
       &:active {
-        background-color: darken($color-success, 5);
+        background-color: darken($color-danger, 5);
       }
     }
   }
+}
+
+.process-wrap{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/process-bg.png) center no-repeat;
+  @include x-background-size(cover);
+  z-index: 11;
+  display: none;
 }

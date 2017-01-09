@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>活动详情</title>
     <link rel="stylesheet" href="weui/weui.css">
-    <link rel="stylesheet" href="http://at.alicdn.com/t/font_xul3wy9b35t2csor.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_gb7p4x12gw8c9pb9.css">
     <link rel="stylesheet" href="plugins/Swiper/swiper-3.3.1.min.css">
     <link rel="stylesheet" href="plugins/PhotoSwipe/photoswipe.css">
     <link rel="stylesheet" href="plugins/PhotoSwipe/default-skin/default-skin.css">
@@ -137,26 +137,45 @@
 
 </div>
 <div class="fix-btn-box ui-border-t">
+    <!--<a class="prize-btn btn-get" href="###">奖品已领取</a>-->
+    <!--<a class="prize-btn btn-over" href="###">活动已结束</a>-->
     <!--<a class="prize-btn" href="###">领取奖品</a>-->
     <ul class="act-fix-group">
         <li class="flex-sm">
             <a class="active" href="###">
-                <i class="iconfont icon-shoucang"></i>
-                <span>收藏</span>
+                <!--<i class="iconfont icon-shoucang"></i>
+                <span>收藏</span>-->
+                <i class="iconfont icon-shoucangc"></i>
+                <span>取消</span>
             </a>
         </li>
         <li class="flex-item"><a href="###">立即参与</a></li>
     </ul>
 </div>
+
+<div class="process-wrap"></div>
 <script>
-    var $swiperContainer = $(".swiper-container");
-    if ($swiperContainer.length > 0) {
-        $swiperContainer.swiper({
-            loop: true,
-            pagination: '.swiper-pagination',
-            autoplay: 5000
+    $(function () {
+
+        var $swiperContainer = $(".swiper-container");
+        if ($swiperContainer.length > 0) {
+            $swiperContainer.swiper({
+                loop: true,
+                pagination: '.swiper-pagination',
+                autoplay: 5000
+            });
+        }
+
+        //查看活动流程
+        $('.activity-step-wrap .btn').click(function () {
+            $('.process-wrap').stop(true, true).fadeIn();
         });
-    }
+        $('.process-wrap').click(function () {
+            $(this).stop(true, true).fadeOut();
+        });
+    });
+
+
 </script>
 </body>
 </html>
