@@ -2462,6 +2462,36 @@ dl.card-dl {
       & + li {
         margin-top:$space-sm;
       }
+      h2{
+        padding: .18rem 0;
+        font-size: $fz-normal;
+        line-height: 1.2;
+        font-weight: normal;
+      }
+      dl{
+        @include flexbox();
+        @include align-items(center);
+        background-color: #f7f7f7;
+        dt{
+          width: 1.24rem;
+          height: 1.24rem;
+          background: center no-repeat;
+          @include x-background-size(cover);
+        }
+        dd{
+          @include flex(1);
+          padding: 0 .2rem;
+          h3{
+            font-size: $fz-sm;
+            line-height: 1.2;
+            font-weight: normal;
+            margin-bottom: .1rem;
+          }
+          p{
+            font-size: $fz-xs;
+          }
+        }
+      }
     }
   }
 }
