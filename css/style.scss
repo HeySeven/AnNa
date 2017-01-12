@@ -2209,14 +2209,14 @@ a.ui-media-box {
 .activity-form {
   .weui_cells_form {
     font-size: $fz-normal;
-    .weui_select{
+    .weui_select {
       height: auto;
-      line-height:normal;
+      line-height: normal;
     }
   }
 }
 
-.see-wrap{
+.see-wrap {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -2226,7 +2226,7 @@ a.ui-media-box {
   text-align: center;
   z-index: 11;
   background-color: rgba(27, 27, 27, 0.6);
-  .see-inner{
+  .see-inner {
     display: inline-block;
     width: 5rem;
     height: 6.4rem;
@@ -2234,19 +2234,19 @@ a.ui-media-box {
     padding: 0 .5rem;
     background: #fafafa url(../images/tips.png) center .7rem no-repeat;
     @include x-background-size(3.23rem);
-    p{
+    p {
       padding-top: 4.4rem;
       font-size: $fz-normal;
       color: $color-normal;
     }
-    .see-btn-wrap{
+    .see-btn-wrap {
       margin-top: .3rem;
-      .see-btn{
+      .see-btn {
         display: block;
         background-color: $color-danger;
         color: #ffffff;
         height: .7rem;
-        line-height:.7rem;
+        line-height: .7rem;
         font-size: $fz-normal;
         @include x-border-radius(3px);
       }
@@ -2254,7 +2254,217 @@ a.ui-media-box {
   }
 }
 
+.card-detail-wrap {
+  .index-video-bd {
+    .swiper-slide {
+      height: 4.48rem;
+      width: 5.18rem;
+      background-image: url(../images/card-bg.png);
+      @include x-background-size(contain);
+      background-repeat: no-repeat;
+      &:before {
+        display: none;
+      }
 
+    }
+  }
+  .swiper-container-3d {
+    .swiper-slide-shadow-right,
+    .swiper-slide-shadow-left {
+      background-image: none;
+    }
+  }
+}
+
+dl.card-dl {
+  width: 2.6rem;
+  margin: .4rem auto 0;
+  text-align: center;
+  dt {
+    margin-bottom: .2rem;
+    height: 2.6rem;
+    @include x-background-size(contain);
+  }
+  dd {
+    line-height: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #ffffff;
+  }
+}
+
+.card-header {
+  margin: 0 auto .55rem;
+  width: 5.18rem;
+  padding: .35rem 0 .25rem;
+  text-align: center;
+  border-bottom: 1px solid #484848;
+  font-size: $fz-big;
+  color: #484848;
+  font-weight: bold;
+}
+
+.card-map-wrap {
+  margin: .2rem auto 0;
+  width: 5.18rem;
+  height: 3.8rem;
+  padding: 5px;
+  .card-map {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.card-code-wrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #414a6b;
+  .card-code-inner {
+    margin: 1.8rem auto 0;
+    width: 5rem;
+    height: 7.16rem;
+    background-image: url(../images/card-code-bg.png);
+    @include x-background-size(contain);
+    text-align: center;
+    h2 {
+      padding: .6rem 0 .2rem;
+      color: #ffffff;
+      font-size: $fz-big;
+    }
+    .card-dl {
+      margin-top: 0;
+      width: 3.3rem;
+      dt {
+        height: 3.3rem;
+        margin-bottom: .3rem;
+      }
+      dd {
+        line-height: .6rem;
+        font-size: $fz-big;
+      }
+    }
+    .card-code-btn {
+      padding: .3rem .4rem;
+      a {
+        display: block;
+        background-color: #eef0fc;
+        line-height: .74rem;
+        font-size: $fz-normal;
+        color: #7284e3;
+      }
+    }
+  }
+}
+
+.card-tab-wrap {
+  .card-tab {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: .7rem;
+    @include flexbox();
+    @include align-items(center);
+    background-color: #ffffff;
+    @include x-box-shadow(0 0 3px rgba(0, 0, 0, 0.2));
+    li {
+      @include flex(1);
+      text-align: center;
+      &.active {
+        a {
+          border-bottom: 1px solid $color-success;
+          color: $color-normal;
+        }
+      }
+      a {
+        line-height: .7rem;
+        display: inline-block;
+        color: #acacac;
+        font-size: $fz-sm;
+      }
+    }
+  }
+  .card-tab-content {
+    margin-top: .7rem;
+    padding: $space-normal $space-sm;
+    .card-list {
+      li {
+        height: 2.07rem;
+        background: url(../images/card-list.png) center no-repeat;
+        @include flexbox();
+        @include align-items(center);
+        @include x-background-size(contain);
+        & + li {
+          margin-top: $space-normal;
+        }
+        .card-hd {
+          width: 2.5rem;
+          text-align: center;
+          img {
+            width: 1.52rem;
+            height: 1.52rem;
+          }
+        }
+        .card-bd {
+          text-align: center;
+          @include flex(1);
+          padding: 0 .4rem;
+          h3 {
+            font-size: $fz-normal;
+            margin-bottom: .1rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+          p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            line-height: .4rem;
+            margin-bottom: .25rem;
+          }
+          .card-dic {
+            font-size: $fz-xs;
+          }
+        }
+      }
+    }
+    .card-list-dead {
+      li {
+        background: url(../images/card-list-dead.png) center no-repeat;
+        @include x-background-size(contain);
+        .card-hd {
+          img {
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+            filter: gray;
+          }
+        }
+      }
+    }
+  }
+}
+
+.git-tab-content {
+  margin-top: .7rem;
+  padding: $space-sm 0;
+  .gift-list {
+    li {
+      background-color: #ffffff;
+      padding: 0 $space-normal $space-sm;
+      & + li {
+        margin-top:$space-sm;
+      }
+    }
+  }
+}
 
 
 

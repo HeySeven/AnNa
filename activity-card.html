@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>我的徽章</title>
+    <link rel="stylesheet" href="weui/weui.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_gb7p4x12gw8c9pb9.css">
+    <link rel="stylesheet" href="plugins/Swiper/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="plugins/PhotoSwipe/photoswipe.css">
+    <link rel="stylesheet" href="plugins/PhotoSwipe/default-skin/default-skin.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background-color: #ffffff;
+        }
+    </style>
+    <script src="plugins/adaptive-version2.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="plugins/fastclick.min.js"></script>
+    <script src="weui/weui.js"></script>
+    <!--plugins-->
+    <script src="plugins/Swiper/swiper-3.3.1.jquery.min.js"></script>
+    <script src="plugins/PhotoSwipe/photoswipe.min.js"></script>
+    <script src="plugins/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+    <!--plugins end-->
+    <script src="http://at.alicdn.com/t/font_xul3wy9b35t2csor.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="card-detail-wrap">
+        <div class="card-header">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-ico-stamp1"></use>
+            </svg>
+            我的徽章
+        </div>
+        <div class="index-video-bd">
+            <!-- Swiper -->
+            <div id="index-video-bd" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <a class="swiper-slide" href="###">
+                        <dl class="card-dl">
+                            <dt style="background-image: url(images/badge-img.png);"></dt>
+                            <dd class="ui-border-tb">Villa Anna</dd>
+                        </dl>
+                    </a>
+                    <a class="swiper-slide" href="###">
+                        <dl class="card-dl">
+                            <dt style="background-image: url(images/badge-img.png);"></dt>
+                            <dd class="ui-border-tb">Villa Anna</dd>
+                        </dl>
+                    </a>
+                    <a class="swiper-slide" href="###">
+                        <dl class="card-dl">
+                            <dt style="background-image: url(images/badge-img.png);"></dt>
+                            <dd class="ui-border-tb">Villa Anna</dd>
+                        </dl>
+                    </a>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('#index-video-bd', {
+                    pagination: '.swiper-pagination',
+                    effect: 'coverflow',
+                    grabCursor: true,
+                    centeredSlides: true,
+                    slidesPerView: 'auto',
+                    coverflow: {
+                        rotate: 45,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true
+                    }
+                });
+            </script>
+        </div>
+        <div class="card-map-wrap ui-border">
+            <div id="card-map" class="card-map"></div>
+        </div>
+    </div>
+
+</div>
+<div class="fix-btn-box ui-border-t">
+    <a class="prize-btn" href="###">查看活动</a>
+</div>
+<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp"></script>
+<script>
+    window.onload = function () {
+//直接加载地图
+        //初始化地图函数  自定义函数名init
+        function init() {
+            //定义map变量 调用 qq.maps.Map() 构造函数   获取地图显示容器
+            var map = new qq.maps.Map(document.getElementById("card-map"), {
+                center: new qq.maps.LatLng(39.916527, 116.397128),      // 地图的中心地理坐标。
+                zoom: 13                                                 // 地图的中心地理坐标。
+            });
+        }
+
+        //调用初始化函数地图
+        init();
+
+        //map-model
+        var $mapMmodel = $('#map-model');
+        var $modelClosed = $('#model-closed');
+        var mapModel = {
+            open: function () {
+                $mapMmodel.addClass('open');
+            },
+            close: function () {
+                $mapMmodel.removeClass('open');
+            }
+        }
+
+        //mapModel.open();
+        $modelClosed.click(function(){
+            mapModel.close();
+        });
+
+    }
+</script>
+</body>
+</html>

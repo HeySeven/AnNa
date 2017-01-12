@@ -2318,4 +2318,203 @@ a.ui-media-box {
         -webkit-border-radius: 3px;
         border-radius: 3px; }
 
+.card-detail-wrap .index-video-bd .swiper-slide {
+  height: 4.48rem;
+  width: 5.18rem;
+  background-image: url(../images/card-bg.png);
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat; }
+  .card-detail-wrap .index-video-bd .swiper-slide:before {
+    display: none; }
+.card-detail-wrap .swiper-container-3d .swiper-slide-shadow-right,
+.card-detail-wrap .swiper-container-3d .swiper-slide-shadow-left {
+  background-image: none; }
+
+dl.card-dl {
+  width: 2.6rem;
+  margin: .4rem auto 0;
+  text-align: center; }
+  dl.card-dl dt {
+    margin-bottom: .2rem;
+    height: 2.6rem;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; }
+  dl.card-dl dd {
+    line-height: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #ffffff; }
+
+.card-header {
+  margin: 0 auto .55rem;
+  width: 5.18rem;
+  padding: .35rem 0 .25rem;
+  text-align: center;
+  border-bottom: 1px solid #484848;
+  font-size: 0.32rem;
+  color: #484848;
+  font-weight: bold; }
+
+.card-map-wrap {
+  margin: .2rem auto 0;
+  width: 5.18rem;
+  height: 3.8rem;
+  padding: 5px; }
+  .card-map-wrap .card-map {
+    width: 100%;
+    height: 100%; }
+
+.card-code-wrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #414a6b; }
+  .card-code-wrap .card-code-inner {
+    margin: 1.8rem auto 0;
+    width: 5rem;
+    height: 7.16rem;
+    background-image: url(../images/card-code-bg.png);
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    text-align: center; }
+    .card-code-wrap .card-code-inner h2 {
+      padding: .6rem 0 .2rem;
+      color: #ffffff;
+      font-size: 0.32rem; }
+    .card-code-wrap .card-code-inner .card-dl {
+      margin-top: 0;
+      width: 3.3rem; }
+      .card-code-wrap .card-code-inner .card-dl dt {
+        height: 3.3rem;
+        margin-bottom: .3rem; }
+      .card-code-wrap .card-code-inner .card-dl dd {
+        line-height: .6rem;
+        font-size: 0.32rem; }
+    .card-code-wrap .card-code-inner .card-code-btn {
+      padding: .3rem .4rem; }
+      .card-code-wrap .card-code-inner .card-code-btn a {
+        display: block;
+        background-color: #eef0fc;
+        line-height: .74rem;
+        font-size: 0.28rem;
+        color: #7284e3; }
+
+.card-tab-wrap .card-tab {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: .7rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  background-color: #ffffff;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
+  .card-tab-wrap .card-tab li {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center; }
+    .card-tab-wrap .card-tab li.active a {
+      border-bottom: 1px solid #30c793;
+      color: #565a5c; }
+    .card-tab-wrap .card-tab li a {
+      line-height: .7rem;
+      display: inline-block;
+      color: #acacac;
+      font-size: 0.24rem; }
+.card-tab-wrap .card-tab-content {
+  margin-top: .7rem;
+  padding: 0.3rem 0.2rem; }
+  .card-tab-wrap .card-tab-content .card-list li {
+    height: 2.07rem;
+    background: url(../images/card-list.png) center no-repeat;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; }
+    .card-tab-wrap .card-tab-content .card-list li + li {
+      margin-top: 0.3rem; }
+    .card-tab-wrap .card-tab-content .card-list li .card-hd {
+      width: 2.5rem;
+      text-align: center; }
+      .card-tab-wrap .card-tab-content .card-list li .card-hd img {
+        width: 1.52rem;
+        height: 1.52rem; }
+    .card-tab-wrap .card-tab-content .card-list li .card-bd {
+      text-align: center;
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      padding: 0 .4rem; }
+      .card-tab-wrap .card-tab-content .card-list li .card-bd h3 {
+        font-size: 0.28rem;
+        margin-bottom: .1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .card-tab-wrap .card-tab-content .card-list li .card-bd p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: .4rem;
+        margin-bottom: .25rem; }
+      .card-tab-wrap .card-tab-content .card-list li .card-bd .card-dic {
+        font-size: 0.2rem; }
+  .card-tab-wrap .card-tab-content .card-list-dead li {
+    background: url(../images/card-list-dead.png) center no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; }
+    .card-tab-wrap .card-tab-content .card-list-dead li .card-hd img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray; }
+
+.git-tab-content {
+  margin-top: .7rem;
+  padding: 0.2rem 0; }
+  .git-tab-content .gift-list li {
+    background-color: #ffffff;
+    padding: 0 0.3rem 0.2rem; }
+    .git-tab-content .gift-list li + li {
+      margin-top: 0.2rem; }
+
 /*# sourceMappingURL=style.css.map */
