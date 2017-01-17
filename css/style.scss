@@ -1128,7 +1128,7 @@ a.ui-media-box {
 
 .info-list {
   .weui_cell {
-    padding: .28rem $space-normal;
+    padding: .2rem $space-normal;
     &:before {
       left: 0;
     }
@@ -1136,7 +1136,6 @@ a.ui-media-box {
   .weui_cell_hd {
     i {
       font-size: .4rem;
-      color: $color-success;
       margin-right: $space-normal;
     }
   }
@@ -1900,6 +1899,7 @@ a.ui-media-box {
       font-size: $fz-big;
     }
     p {
+      color: $color-light;
       padding: 0 $space-sm $space-xs;
     }
   }
@@ -1921,6 +1921,7 @@ a.ui-media-box {
   h1 {
     font-size: $fz-big;
     margin-bottom: .05rem;
+    color: $color-darker;
   }
   p {
     font-size: $fz-xs;
@@ -1959,8 +1960,12 @@ a.ui-media-box {
     text-align: center;
     font-size: $fz-big;
     font-weight: bold;
+    color: $color-darker;
     svg {
-
+      margin-top: -4px;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: .4rem;
     }
   }
   .act-panel-body {
@@ -2073,7 +2078,9 @@ a.ui-media-box {
         font-size: $fz-xs;
       }
       &.active {
-        color: $color-danger;
+        i {
+          color: #fdb92c;
+        }
       }
     }
   }
@@ -2135,6 +2142,7 @@ a.ui-media-box {
           color: #565a5c;
           font-size: $fz-sm;
           span {
+            font-weight: normal;
             font-size: $fz-xs;
             color: $color-lighter;
             float: right;
@@ -2194,9 +2202,10 @@ a.ui-media-box {
         float: left;
       }
       .step-bd {
+        margin-top: .1rem;
         span {
           display: block;
-          font-size: $fz-xs;
+          font-size: .16rem;
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
@@ -2361,6 +2370,7 @@ dl.card-dl {
 }
 
 .card-tab-wrap {
+  color: $color-darker;
   .card-tab {
     position: fixed;
     top: 0;
@@ -2460,34 +2470,35 @@ dl.card-dl {
       background-color: #ffffff;
       padding: 0 $space-normal $space-sm;
       & + li {
-        margin-top:$space-sm;
+        margin-top: $space-sm;
       }
-      h2{
+      h2 {
         padding: .18rem 0;
         font-size: $fz-normal;
         line-height: 1.2;
         font-weight: normal;
       }
-      dl{
+      dl {
         @include flexbox();
         @include align-items(center);
         background-color: #f7f7f7;
-        dt{
+        dt {
           width: 1.24rem;
           height: 1.24rem;
           background: center no-repeat;
           @include x-background-size(cover);
         }
-        dd{
+        dd {
           @include flex(1);
           padding: 0 .2rem;
-          h3{
+          h3 {
             font-size: $fz-sm;
             line-height: 1.2;
             font-weight: normal;
             margin-bottom: .1rem;
           }
-          p{
+          p {
+            color: #565a5c;
             font-size: $fz-xs;
           }
         }
@@ -2496,7 +2507,54 @@ dl.card-dl {
   }
 }
 
+.center-panel {
+  margin-top: .2rem;
+  background-color: #ffffff;
+  .center-panel-header {
+    position: relative;
+    padding: .2rem .3rem;
+    font-size: .26rem;
+    color: $color-darker;
+    &:after {
+      content: " ";
+      position: absolute;
+      left: .3rem;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      border-top: 1px solid #D9D9D9;
+      color: #D9D9D9;
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0;
+      -webkit-transform: scaleY(0.5);
+      transform: scaleY(0.5);
+    }
+  }
+  .center-panel-body {
 
+  }
+}
 
-
+.col-wrap {
+  @include flexbox();
+  @include align-items(center);
+  padding: .16rem .3rem;
+  .col-item {
+    text-align: center;
+    line-height: 1;
+    color: $color-darker;
+    & + .col-item {
+      border-left: 1px solid #e5e5e5;
+    }
+    @include flex(1);
+    i {
+      color: $color-normal;
+      font-size: .4rem;
+    }
+    span {
+      margin-top: .06rem;
+      display: block;
+    }
+  }
+}
 

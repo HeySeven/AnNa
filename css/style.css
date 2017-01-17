@@ -1207,12 +1207,11 @@ a.ui-media-box {
   color: #9a9a9a; }
 
 .info-list .weui_cell {
-  padding: 0.28rem 0.3rem; }
+  padding: 0.2rem 0.3rem; }
   .info-list .weui_cell:before {
     left: 0; }
 .info-list .weui_cell_hd i {
   font-size: .4rem;
-  color: #30c793;
   margin-right: 0.3rem; }
 .info-list .weui_cell_bd {
   font-size: .26rem;
@@ -1972,6 +1971,7 @@ a.ui-media-box {
       padding: 0.2rem 0.2rem 0.1rem;
       font-size: 0.32rem; }
     .activity-list li p {
+      color: #aaaeb1;
       padding: 0 0.2rem 0.1rem; }
 
 .swiper-slide img {
@@ -1987,7 +1987,8 @@ a.ui-media-box {
   padding: 0.3rem 0; }
   .activity-a h1 {
     font-size: 0.32rem;
-    margin-bottom: .05rem; }
+    margin-bottom: .05rem;
+    color: #2a2a2a; }
   .activity-a p {
     font-size: 0.2rem;
     color: #aaa; }
@@ -2022,7 +2023,13 @@ a.ui-media-box {
   padding: 0.3rem 0;
   text-align: center;
   font-size: 0.32rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #2a2a2a; }
+  .act-panel .act-panel-header svg {
+    margin-top: -4px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: .4rem; }
 .act-panel .act-panel-body {
   padding-bottom: 0.3rem; }
 
@@ -2141,8 +2148,8 @@ a.ui-media-box {
     flex: inherit; }
     .act-fix-group .flex-sm a span {
       font-size: 0.2rem; }
-    .act-fix-group .flex-sm a.active {
-      color: #fc4d52; }
+    .act-fix-group .flex-sm a.active i {
+      color: #fdb92c; }
   .act-fix-group .flex-item {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
@@ -2214,6 +2221,7 @@ a.ui-media-box {
         color: #565a5c;
         font-size: 0.24rem; }
         .message-list-wrap .message-list li .msg-bd h3 span {
+          font-weight: normal;
           font-size: 0.2rem;
           color: #aaa;
           float: right; }
@@ -2265,12 +2273,14 @@ a.ui-media-box {
         text-align: center;
         line-height: .4rem;
         float: left; }
-      .step-form .step-form-list li .step-bd span {
-        display: block;
-        font-size: 0.2rem;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis; }
+      .step-form .step-form-list li .step-bd {
+        margin-top: .1rem; }
+        .step-form .step-form-list li .step-bd span {
+          display: block;
+          font-size: .16rem;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
 
 .activity-form .weui_cells_form {
   font-size: 0.28rem; }
@@ -2409,47 +2419,14 @@ dl.card-dl {
         font-size: 0.28rem;
         color: #7284e3; }
 
-.card-tab-wrap .card-tab {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: .7rem;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  align-items: center;
-  background-color: #ffffff;
-  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
-  .card-tab-wrap .card-tab li {
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    text-align: center; }
-    .card-tab-wrap .card-tab li.active a {
-      border-bottom: 1px solid #30c793;
-      color: #565a5c; }
-    .card-tab-wrap .card-tab li a {
-      line-height: .7rem;
-      display: inline-block;
-      color: #acacac;
-      font-size: 0.24rem; }
-.card-tab-wrap .card-tab-content {
-  margin-top: .7rem;
-  padding: 0.3rem 0.2rem; }
-  .card-tab-wrap .card-tab-content .card-list li {
-    height: 2.07rem;
-    background: url(../images/card-list.png) center no-repeat;
+.card-tab-wrap {
+  color: #2a2a2a; }
+  .card-tab-wrap .card-tab {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: .7rem;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -2460,53 +2437,88 @@ dl.card-dl {
     -webkit-align-items: center;
     -moz-align-items: center;
     align-items: center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain; }
-    .card-tab-wrap .card-tab-content .card-list li + li {
-      margin-top: 0.3rem; }
-    .card-tab-wrap .card-tab-content .card-list li .card-hd {
-      width: 2.5rem;
-      text-align: center; }
-      .card-tab-wrap .card-tab-content .card-list li .card-hd img {
-        width: 1.52rem;
-        height: 1.52rem; }
-    .card-tab-wrap .card-tab-content .card-list li .card-bd {
-      text-align: center;
+    background-color: #ffffff;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); }
+    .card-tab-wrap .card-tab li {
       -webkit-box-flex: 1;
       -moz-box-flex: 1;
       -webkit-flex: 1;
       -ms-flex: 1;
       flex: 1;
-      padding: 0 .4rem; }
-      .card-tab-wrap .card-tab-content .card-list li .card-bd h3 {
-        font-size: 0.28rem;
-        margin-bottom: .1rem;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap; }
-      .card-tab-wrap .card-tab-content .card-list li .card-bd p {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        line-height: .4rem;
-        margin-bottom: .25rem; }
-      .card-tab-wrap .card-tab-content .card-list li .card-bd .card-dic {
-        font-size: 0.2rem; }
-  .card-tab-wrap .card-tab-content .card-list-dead li {
-    background: url(../images/card-list-dead.png) center no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain; }
-    .card-tab-wrap .card-tab-content .card-list-dead li .card-hd img {
-      -webkit-filter: grayscale(100%);
-      -moz-filter: grayscale(100%);
-      -ms-filter: grayscale(100%);
-      -o-filter: grayscale(100%);
-      filter: grayscale(100%);
-      filter: gray; }
+      text-align: center; }
+      .card-tab-wrap .card-tab li.active a {
+        border-bottom: 1px solid #30c793;
+        color: #565a5c; }
+      .card-tab-wrap .card-tab li a {
+        line-height: .7rem;
+        display: inline-block;
+        color: #acacac;
+        font-size: 0.24rem; }
+  .card-tab-wrap .card-tab-content {
+    margin-top: .7rem;
+    padding: 0.3rem 0.2rem; }
+    .card-tab-wrap .card-tab-content .card-list li {
+      height: 2.07rem;
+      background: url(../images/card-list.png) center no-repeat;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain; }
+      .card-tab-wrap .card-tab-content .card-list li + li {
+        margin-top: 0.3rem; }
+      .card-tab-wrap .card-tab-content .card-list li .card-hd {
+        width: 2.5rem;
+        text-align: center; }
+        .card-tab-wrap .card-tab-content .card-list li .card-hd img {
+          width: 1.52rem;
+          height: 1.52rem; }
+      .card-tab-wrap .card-tab-content .card-list li .card-bd {
+        text-align: center;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        padding: 0 .4rem; }
+        .card-tab-wrap .card-tab-content .card-list li .card-bd h3 {
+          font-size: 0.28rem;
+          margin-bottom: .1rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+        .card-tab-wrap .card-tab-content .card-list li .card-bd p {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          line-height: .4rem;
+          margin-bottom: .25rem; }
+        .card-tab-wrap .card-tab-content .card-list li .card-bd .card-dic {
+          font-size: 0.2rem; }
+    .card-tab-wrap .card-tab-content .card-list-dead li {
+      background: url(../images/card-list-dead.png) center no-repeat;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain; }
+      .card-tab-wrap .card-tab-content .card-list-dead li .card-hd img {
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray; }
 
 .git-tab-content {
   margin-top: .7rem;
@@ -2554,6 +2566,59 @@ dl.card-dl {
           font-weight: normal;
           margin-bottom: .1rem; }
         .git-tab-content .gift-list li dl dd p {
+          color: #565a5c;
           font-size: 0.2rem; }
+
+.center-panel {
+  margin-top: .2rem;
+  background-color: #ffffff; }
+  .center-panel .center-panel-header {
+    position: relative;
+    padding: .2rem .3rem;
+    font-size: .26rem;
+    color: #2a2a2a; }
+    .center-panel .center-panel-header:after {
+      content: " ";
+      position: absolute;
+      left: .3rem;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      border-top: 1px solid #D9D9D9;
+      color: #D9D9D9;
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0;
+      -webkit-transform: scaleY(0.5);
+      transform: scaleY(0.5); }
+
+.col-wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  padding: .16rem .3rem; }
+  .col-wrap .col-item {
+    text-align: center;
+    line-height: 1;
+    color: #2a2a2a;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+    .col-wrap .col-item + .col-item {
+      border-left: 1px solid #e5e5e5; }
+    .col-wrap .col-item i {
+      color: #565a5c;
+      font-size: .4rem; }
+    .col-wrap .col-item span {
+      margin-top: .06rem;
+      display: block; }
 
 /*# sourceMappingURL=style.css.map */
