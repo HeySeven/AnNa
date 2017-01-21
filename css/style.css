@@ -230,7 +230,13 @@ html.overflow-hidden, html.overflow-hidden body {
   position: relative; }
   .head-img-box .head-img-link {
     position: relative;
-    display: block; }
+    display: block;
+    height: 3.1rem;
+    background: center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
     .head-img-box .head-img-link img {
       width: 100%;
       vertical-align: top; }
