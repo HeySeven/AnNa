@@ -2108,8 +2108,8 @@ a.ui-media-box {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../images/process-bg.png) center no-repeat;
-  @include x-background-size(cover);
+  background: url(../images/process-bg.png) center no-repeat rgba(255, 255, 255, 0.9);
+  @include x-background-size(contain);
   z-index: 11;
   display: none;
 }
@@ -2515,6 +2515,9 @@ dl.card-dl {
     padding: .2rem .3rem;
     font-size: .26rem;
     color: $color-darker;
+    a{
+      color: $color-darker;
+    }
     &:after {
       content: " ";
       position: absolute;
