@@ -2564,3 +2564,54 @@ dl.card-dl {
   }
 }
 
+.fixed-tip-wrap{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.fixed-tip-inner{
+  margin: 1.3rem auto 0;
+  padding: .5rem;
+  width: 5rem;
+  height: 6.4rem;
+  background-color: #fafafa;
+  @include x-border-radius(.15rem);
+  text-align: center;
+  img{
+    width: 3.23rem;
+    height: 3.23rem;
+    vertical-align: top;
+  }
+  dl{
+    dt{
+      margin-top: .25rem;
+      font-size: .28rem;
+      color: $color-darker;
+    }
+    dd{
+      margin-top: .1rem;
+      font-size: .22rem;
+      color: $color-normal;
+    }
+  }
+  .btn-wrap{
+    margin-top: .2rem;
+    .btn{
+      display: block;
+      @include x-border-radius(4px);
+    }
+  }
+}
+
+
+
+
+
+
+
+
