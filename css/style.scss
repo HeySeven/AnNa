@@ -2575,6 +2575,7 @@ dl.card-dl {
 }
 
 .fixed-tip-inner{
+  position: relative;
   margin: 1.3rem auto 0;
   padding: .5rem;
   width: 5rem;
@@ -2582,6 +2583,19 @@ dl.card-dl {
   background-color: #fafafa;
   @include x-border-radius(.15rem);
   text-align: center;
+  .close-tips{
+    position: absolute;
+    top: -.2rem;
+    right: -.2rem;
+    width: .6rem;
+    height: .6rem;
+    text-align: center;
+    line-height: .6rem;
+    font-size: .4rem;
+    color: #aaa;
+    background: #efefef;
+    @include x-border-radius(50%);
+  }
   img{
     width: 3.23rem;
     height: 3.23rem;

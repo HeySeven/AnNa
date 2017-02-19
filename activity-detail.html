@@ -154,19 +154,19 @@
 </div>
 
 <div class="process-wrap"></div>
-<!--<div class="fixed-tip-wrap">
+<div class="fixed-tip-wrap">
     <div class="fixed-tip-inner">
+        <a href="###" class="close-tips iconfont icon-icondelete"></a>
         <img src="images/tips-a.png" alt="">
         <dl>
-            <dt>恭喜获取礼品券一张</dt>
-            <dd>所有奖品已收入囊中</dd>
+            <dt>扫描二维码取得规定数量徽章 <br>换取超值礼品</dt>
         </dl>
         <div class="btn-wrap">
-            <a href="###" class="btn btn-danger">立即查看</a>
+            <a href="###" class="btn btn-success">了解更多</a>
         </div>
     </div>
-</div>-->
-<div class="fixed-tip-wrap">
+</div>
+<!--<div class="fixed-tip-wrap">
     <div class="fixed-tip-inner">
         <img src="images/tips-b.png" alt="">
         <dl>
@@ -177,10 +177,12 @@
             <a href="###" class="btn btn-danger">查看详情</a>
         </div>
     </div>
-</div>
+</div>-->
 <script>
     $(function () {
-
+        $('.close-tips').click(function () {
+            $(this).closest('.fixed-tip-wrap').stop(true, true).fadeOut();
+        });
         var $swiperContainer = $(".swiper-container");
         if ($swiperContainer.length > 0) {
             $swiperContainer.swiper({
