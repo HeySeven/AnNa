@@ -2622,6 +2622,44 @@ dl.card-dl {
   }
 }
 
+.index-activity{
+  .index-video-hd dl dt{
+    border-bottom: 0;
+  }
+}
+.index-active-wrap{
+  display: block;
+  @include x-clearfix();
+  padding: 0 $space-normal $space-normal;
+  .index-active-hd{
+    float: left;
+    margin-right: $space-sm;
+    width: 2.12rem;
+    height: 1.3rem;
+    @include x-background-size(cover);
+  }
+  .index-active-bd{
+    text-align: left;
+    overflow: hidden;
+    h3{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-weight: normal;
+      color: $color-darker;
+      font-size: $fz-normal;
+    }
+    p{
+      min-height: .56rem;
+      font-size: $fz-sm;
+      color: $color-light;
+    }
+    .index-active-disc{
+      font-size: $fz-xs;
+      color: $color-light;
+    }
+  }
+}
 
 
 
