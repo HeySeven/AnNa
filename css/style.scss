@@ -1973,6 +1973,12 @@ a.ui-media-box {
   }
   .act-panel-body {
     padding-bottom: $space-normal;
+    p{
+      text-align: center;
+      span{
+        color: $color-success;
+      }
+    }
   }
 }
 
@@ -1995,19 +2001,30 @@ a.ui-media-box {
   list-style: none;
   @include x-clearfix();
   text-align: center;
+  margin-bottom: .2rem;
   li {
-    position: relative;
     display: inline-block;
-    text-align: center;
-    margin: .2rem;
-    width: 1.16rem;
-    height: 1.16rem;
-    line-height: 1.16rem;
-    @include x-background-size(.68rem);
-    background-repeat: no-repeat;
-    background-position: center;
-    @include x-border-radius(50%);
-    overflow: hidden;
+    .badge-inner{
+      position: relative;
+      margin: .2rem;
+      text-align: center;
+      width: 1.16rem;
+      height: 1.16rem;
+      line-height: 1.16rem;
+      @include x-background-size(.68rem);
+      background-repeat: no-repeat;
+      background-position: center;
+      @include x-border-radius(50%);
+      overflow: hidden;
+    }
+    a{
+      display: inline-block;
+      padding:0 .2rem;
+      background-color: #f0f0f0;
+      color: $color-normal;
+      font-size: $fz-xs;
+      @include x-border-radius(.32rem);
+    }
     span {
       position: absolute;
       top: 0;
