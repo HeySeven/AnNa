@@ -2024,6 +2024,18 @@ a.ui-media-box {
       color: $color-normal;
       font-size: $fz-xs;
       @include x-border-radius(.32rem);
+      &.tag-able{
+        color: #ffffff;
+        background-color: $color-success;
+      }
+      &.tag-no{
+        color: #ffffff;
+        background-color: #d3d3d3;
+      }
+      &.tag-already{
+        color: #ffffff;
+        background-color: #6d6d6d;
+      }
     }
     span {
       position: absolute;
