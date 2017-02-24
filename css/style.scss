@@ -3,7 +3,9 @@
 .icon-bofang:before {
   content: "\e623" !important;
 }
-
+.swiper-pagination-bullet{
+  background-color: $color-success !important;
+}
 .fix-btn-box {
   position: fixed;
   bottom: 0;
@@ -1879,7 +1881,7 @@ a.ui-media-box {
     }
     a {
       display: block;
-      color: $color-normal;
+      color: $color-darker;
     }
     .activity-img {
       position: relative;

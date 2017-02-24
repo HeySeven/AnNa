@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0bcfc3b6-241d-4d0c-ab2f-1bebbf509db9" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.sass-cache/2001c7cda412a6e0d424f33255a6b3b1457781fb/style.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/2001c7cda412a6e0d424f33255a6b3b1457781fb/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/process-bg.png" afterPath="$PROJECT_DIR$/images/process-bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activity-detail.html" afterPath="$PROJECT_DIR$/activity-detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css.map" afterPath="$PROJECT_DIR$/css/media.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7057522">
-              <caret line="2032" column="34" selection-start-line="2032" selection-start-column="34" selection-end-line="2032" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.27876106">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -76,14 +74,24 @@
       <file leaf-file-name="activity-detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activity-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.222221">
-              <caret line="123" column="46" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
+            <state vertical-scroll-proportion="-4.6666665">
+              <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activity-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.4814816">
+              <caret line="59" column="17" selection-start-line="90" selection-start-column="0" selection-end-line="122" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -227,7 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,10 +281,7 @@
       <recent name="$PROJECT_DIR$/plugins/Swiper" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.activity-detail.html (1)">
-    <configuration default="false" name="page-detail.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/page-detail.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.activity-list.html">
     <configuration default="false" name="activity-detail.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/activity-detail.html">
       <method />
     </configuration>
@@ -287,6 +292,9 @@
       <method />
     </configuration>
     <configuration default="false" name="audio-detail.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/audio-detail.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="activity-list.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/安娜别墅/activity-list.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -338,19 +346,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.page-detail.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.activity-detail.html (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.activity-form.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.audio-detail.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.activity-detail.html (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.activity-form.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.audio-detail.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.activity-list.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.activity-detail.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.audio-detail.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.activity-form.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.page-detail.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.activity-list.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.activity-detail.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.audio-detail.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.activity-form.html" />
       </list>
     </recent_temporary>
   </component>
@@ -569,7 +577,13 @@
       <option name="project" value="LOCAL" />
       <updated>1487685023321</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="活动调整">
+      <created>1487769024365</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1487769024365</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -743,13 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.1851852">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activity-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.1851852">
-          <caret line="90" column="2" selection-start-line="90" selection-start-column="0" selection-end-line="122" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -992,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activity-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.222221">
-          <caret line="123" column="46" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1003,10 +1010,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/activity-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4814816">
+          <caret line="59" column="17" selection-start-line="90" selection-start-column="0" selection-end-line="122" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7057522">
-          <caret line="2032" column="34" selection-start-line="2032" selection-start-column="34" selection-end-line="2032" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.27876106">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
           <folding />
         </state>
       </provider>
